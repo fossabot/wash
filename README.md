@@ -107,7 +107,7 @@ Classification of results for proportion-type of indicators was first recommende
 
 When initiating this step, the user is first prompted to provide the following information:
 
-a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. To obtain a copy of this steering file, please contact [Jonathan Stokes](mailto:jstokes@wsup.com). This file should be in CSV format.
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
 
 b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the 'data' folder in the current working directory.
 
@@ -160,7 +160,7 @@ This step is part of the last steps of the workflow that analyses the data and p
 
 When initiating this step, the user is first prompted to provide the following information:
 
-a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this indicator file is available from this repository and can be used for all other city survey data.
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
 
 b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the *’data’* folder in the current working directory of the workflow.
 
