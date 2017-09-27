@@ -102,82 +102,127 @@ Indicator sets are merged into a single indicator dataframe and is saved as a co
 
 6. Step 4a: Classify
 This step is part of the last steps of the workflow that analyses the data and produces indicator results. This step specifically performs a lot quality assurance sampling (LQAS) classification process that determines whether an indicator proportion results meets a specific standard or cut-off. If the indicator result is below standard, then it is classified as being low or a failure. If the indicator result is above standard then it is considered high or a success.
+
 Classification of results for proportion-type of indicators was first recommended as the option to use given the limited set of resources available to WSUP to perform the surveys thy set out to implement.
 
 When initiating this step, the user is first prompted to provide the following information:
 
-a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. To obtain a copy of this steering file, please contact Jonathan Stokes. This file should be in CSV format.
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. To obtain a copy of this steering file, please contact [Jonathan Stokes](mailto:jstokes@wsup.com). This file should be in CSV format.
 
 b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the 'data' folder in the current working directory.
 
 c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
 
 Once the datasets have been provided, the next steps involve the actual classification of results. The different steps in this are:
-a. Specify LQAS parameters - the user will be asked to specify two cut-off points to which results will be classified. The default upper and lower standards are 50% and 80%. For further information on how to properly set LQAS standards, refer to the design document that is available from WSUP through Jonathan Stokes.
-b. Classify by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the classification on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the 'outputTables' folder found in the current working directory under the filename 'surveyResultsClassXXXMmmYYYY.csv' where:
-XXX - three letter ISO country code (i.e., Bangladesh - BGD)
-Mmm - three letter abbreviation of the month in which the survey that the dataset being analysed comes from was started.
-YYYY - four digit number corresonding to the year in which the survey that the dataset being analysed comes from was started.
-c. Classify by wealth - this step classifies the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the classification on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the 'outputTables' folder found in the current working directory under the filename 'surveyResultsClassWealthXXXMmmYYYY.csv' where:
-XXX - three letter ISO country code (i.e., Bangladesh - BGD)
-Mmm - three letter abbreviation of the month in which the survey that the dataset being analysed comes from was started.
-YYYY - four digit number corresonding to the year in which the survey that the dataset being analysed comes from was started.
-d. Classify overall - this step classifies the indicator data for the whole dataset. Classification is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the 'outputTables' folder found in the current working directory under the filename 'surveyResultsClassOverallXXXMmmYYYY.csv' where:
-XXX - three letter ISO country code (i.e., Bangladesh - BGD)
-Mmm - three letter abbreviation of the month in which the survey that the dataset being analysed comes from was started.
-YYYY - four digit number corresonding to the year in which the survey that the dataset being analysed comes from was started.
-Another node called 'Classify by corporation' performs classification by north and south corporations of Dhaka, Bangladesh. This step is Dhaka-specific and should be initiated on its own if a north and south classificaiton is required.
 
-## Running the tests
+a. Specify LQAS parameters - the user will be asked to specify two cut-off points to which results will be classified. The default upper and lower standards are 50% and 80%. For further information on how to properly set LQAS standards, refer to the design document that is available from WSUP through [Jonathan Stokes](mailto:jstokes@wsup.com).
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+b. Classify by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the classification on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassXXXMmmYYYY.csv’*** where:
 
 ```
-Give an example
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresponding to the year in which the 
+       survey that the dataset being analysed comes from was started.
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+c. Classify by wealth - this step classifies the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the classification on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassWealthXXXMmmYYYY.csv’*** where:
 
 ```
-Give an example
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresonding to the year in which the 
+       survey that the dataset being analysed comes from was started.
 ```
 
-## Deployment
+d. Classify overall - this step classifies the indicator data for the whole dataset. Classification is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassOverallXXXMmmYYYY.csv’*** where:
 
-Add additional notes about how to deploy this on a live system
+```
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresponding to the year in which the     
+       survey that the dataset being analysed comes from was started.
+```
+
+Another node called *’Classify by corporation’* performs classification by north and south corporations of Dhaka, Bangladesh. This step is Dhaka-specific and should be initiated on its own if a north and south classification is required.
+
+7. Step 4b: Estimate
+This step is part of the last steps of the workflow that analyses the data and produces indicator results. This step specifically performs a blocked weighted bootstrap estimation of indicator results including a 95% CI around the estimate. This approach was added to the analysis to test the viability of an estimation approach for small sample sizes.
+
+When initiating this step, the user is first prompted to provide the following information:
+
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this indicator file is available from this repository and can be used for all other city survey data.
+
+b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the *’data’* folder in the current working directory of the workflow.
+
+c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
+
+Once the datasets have been provided, the next steps involve the actual estimation of results. The different steps in this are:
+a. Specify bootstrap parameters - the user will be asked to specify the number of replicates to perform for bootstrap estimation. The default is 399 replicates. It is recommended that the number of replicates be no less than this default number. For further information on setting bootstrap replicates, refer to the design document that is available from [WSUP](http://www.wsup.com) through [Jonathan Stokes](mailto:jstokes@wsup.com).
+
+b. Estimate by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the estimation on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsXXXMmmYYYY.csv’*** where:
+
+```
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresonding to the year in which the 
+       survey that the dataset being analysed comes from was started.
+```
+
+c. Estimate by wealth - this step estimates the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the estimation on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsWealthXXXMmmYYYY.csv’*** where:
+
+```
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresonding to the year in which the 
+       survey that the dataset being analysed comes from was started.
+```
+
+d. Estimate overall - this step estimates the indicator data for the whole dataset. Estimation is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsOverallXXXMmmYYYY.csv’*** where:
+
+```
+XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+Mmm  - three letter abbreviation of the month in which the 
+       survey that the dataset being analysed comes from was started.
+
+YYYY - four digit number corresponding to the year in which the 
+       survey that the dataset being analysed comes from was started.
+```
+
+Another node called *’Estimate by corporation’* performs estimation by north and south corporations of Dhaka, Bangladesh. This step is Dhaka-specific and should be initiated on its own if a north and south estimation is required.
+
+8. Step 4c: Combine results
+This step is the final step in the analysis process. This step looks for all the outputted results for classification and estimation at the different levels of disaggregation and combines them into a single data frame. Once combined, a further organisation of data is performed that converts the data frame into a format that is acceptable to the web application that will produce visualisation outputs from the results. This final data frame is saved in the 'outputTables' folder under the filename *’surveResultsAll.csv’*. This file has no location and time identifiers as it combines all completed results from all country surveys at all time periods.
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [R](https://www.r-project.org)
+* [RAnalyticFlow](http://r.analyticflow.com)
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+**Ernest Guevarra** - [Valid International, Ltd.](http://www.validinternational.org)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ernestguevarra/wash/blob/master/LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
