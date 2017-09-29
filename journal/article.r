@@ -853,5 +853,91 @@ pointPlot <- geom_point(stat = "identity", alpha = 0.8)
 
 
 
+################################################################################
+#
+# Define plotting layers for ggplot - stacked bar by survey area grouped by type
+#
+################################################################################
+#
+# Re-structure factor for indicatorCode
+#
+results.precision$indicatorCode <- factor(results.precision$indicatorCode,
+                                          levels = c(rev(c("jmpSan1", "jmpSan2", 
+                                                           "jmpSan3", "jmpSan4", 
+                                                           "jmpSan5")),
+                                                     rev(c("jmpWater1", "jmpWater2", 
+                                                           "jmpWater3", "jmpWater4", 
+                                                           "jmpWater5")),
+                                                     rev(c("jmpHand1", "jmpHand2", "jmpHand3")))) 
+
+#
+# Base plot
+#
+basePlot <- ggplot(data = results.precision, 
+                   mapping = aes(x = strata, 
+                                 y = estimate, 
+                                 fill = indicatorCode))
+#
+# Bar plot
+#
+barPlot <- geom_bar(stat = "identity", position = "fill", alpha = 0.8)
+#
+# Bar fill
+#
+barFill <- scale_fill_manual(name = "Indicators",
+                               values = c(sanitationLadder, waterLadder, handwashLadder),
+                               labels = c(rev(c("Open defecation", 
+                                                "Unimproved sanitation facility", 
+                                                "Limited sanitation facility", 
+                                                "Basic sanitation facility", 
+                                                "Safely-managed sanitation facility")),
+                                          rev(c("Surface water", 
+                                                "Unimproved water source", 
+                                                "Limited water source", 
+                                                "Basic water source", 
+                                                "Safely-managed water source")),
+                                          rev(c("No handwashing facility", 
+                                                "Limited handwashing facility", 
+                                                "Basic handwasing facility"))))
+
+
+#
+# Facets
+#
+barFacet <- facet_wrap(indicatorSet ~ type, nrow = 3)
+#
+# Axis labels
+#
+barLabels <- labs(x = "strata", y = "estimate")
+#
+# x-axis tick mark labels
+#
+xLabels <- scale_x_discrete(labels = c("Slum", "Citywide"))
+
+
+################################################################################
+#
+# Plot
+#
+################################################################################
+#
+# Open graphics device
+#
+png(filename = "jmpLadderByStrata.png",
+    width = 12, height = 7.5, units = "in",
+    res = 200)
+#
+# Assemble plotting layers
+#
+basePlot + 
+barPlot + barFill + barFacet + barLabels + 
+theme_article + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+#
+# Close graphics device
+#
+dev.off()
+
+
+
 
 
