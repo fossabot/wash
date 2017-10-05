@@ -84,7 +84,7 @@ This step asks the user to provide the survey dataset for the analysis. This wil
 
 4. **Step 2b: Read and process data**
 
-This step is an interim or sub-step. Raw cleaned survey data is processed and then saved as working data in the 'data' folder in the working directory. Codebooks are also produced for dataset documentation purposes and as reference. This is saved in the 'outputLists' folder. Data processing need only be done once as working details used for subsequent steps.
+This step is an interim or sub-step. Raw cleaned survey data is processed and then saved as working data in the 'data' folder in the working directory. Codebooks are also produced for dataset documentation purposes and as reference. This is saved in the *’outputLists’* folder. Data processing need only be done once as working details used for subsequent steps.
 
 It should be noted that this processing step is specific to the Dhaka, Bangladesh survey conducted in March 2017. Because of the nature of the questionnaire and how specific questions are asked and the responses provided, Dhaka-specific cleaning and processing of the data were performed. This step will most likely not work for other country surveys as no information is still known as to what kinds of inputs and responses will be provided by the respondents in the other countries.
 
