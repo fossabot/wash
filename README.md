@@ -56,13 +56,13 @@ This step specifies [R](https://www.r-project.org) properties, libraries and dep
 
 This step is required and mandatory every time the [WSUP](http://www.wsup.com) analysis workflow is used. This step is composed of eight nodes or sub-steps.
 
-	a. Configure [R](https://www.r-project.org) - this step resets all [R](https://www.r-project.org) settings, clears the [R](https://www.r-project.org) cache in your computer's random access memory (RAM) and sets a random number seed for any function requiring a random number to be generated. All these settings ensures that you are working with [R](https://www.r-project.org) with clear settings avoiding potential common conflicts when previous operation/s have been performed in [R](https://www.r-project.org)/[RAnalyticFlow](http://r.analyticflow.com).
+a. *Configure [R](https://www.r-project.org)* - this step resets all [R](https://www.r-project.org) settings, clears the [R](https://www.r-project.org) cache in your computer's random access memory (RAM) and sets a random number seed for any function requiring a random number to be generated. All these settings ensures that you are working with [R](https://www.r-project.org) with clear settings avoiding potential common conflicts when previous operation/s have been performed in [R](https://www.r-project.org)/[RAnalyticFlow](http://r.analyticflow.com).
 
-	b. Load libraries - this step loads the libraries needed by the analysis workflow to perform the required analysis. Most of these are the same libraries that have been installed in Step 0. The others are base functions already pre-installed with any R installation.
+b. *Load libraries* - this step loads the libraries needed by the analysis workflow to perform the required analysis. Most of these are the same libraries that have been installed in Step 0. The others are base functions already pre-installed with any R installation.
 
-	c. Functions - this step loads functions that have been created to work with the [WSUP](http://www.wsup.com) analysis workflow. Most important of these functions is the blocked weighted bootstrap algorithm that serves as the estimator function for the indicators produced by this workflow. For further explanation on the blocked weighted bootstrap estimator, see the design document produced by [Valid International](http://www.validinternational.org). A copy can be requested from [Jonathan Stokes](mailto:jstokes@wsup.com).
+c. *Functions* - this step loads functions that have been created to work with the [WSUP](http://www.wsup.com) analysis workflow. Most important of these functions is the blocked weighted bootstrap algorithm that serves as the estimator function for the indicators produced by this workflow. For further explanation on the blocked weighted bootstrap estimator, see the design document produced by [Valid International](http://www.validinternational.org). A copy can be requested from [Jonathan Stokes](mailto:jstokes@wsup.com).
 
-	d. Directories - this step automatically generates directories within the current working directory to which the workflow will save its outputs. There are three directories that are created:
+d. *Directories* - this step automatically generates directories within the current working directory to which the workflow will save its outputs. There are three directories that are created:
 
 - *’outputLists’* - this directory is used to store the codebook created in the next steps;
 
@@ -70,13 +70,13 @@ This step is required and mandatory every time the [WSUP](http://www.wsup.com) a
 
 - *’data’* - this directory is used to store processed datasets produced by the analysis workflow.
 
-	e. Assemble colours - this step creates colour palettes that will be used by other later steps in the workflow. This step is now deprecated as outputs requiring colours are now produced by the web-based application created for the urban water and sanitation surveys of [WSUP](http://www.wsup.com).
+e. Assemble colours - this step creates colour palettes that will be used by other later steps in the workflow. This step is now deprecated as outputs requiring colours are now produced by the web-based application created for the urban water and sanitation surveys of [WSUP](http://www.wsup.com).
 
-	f. PPI tables - this step is a data node. This node contains the datasets for the lookup tables to be used for calculating the *Progress out of Poverty Index (PPI)*. This step is a critical step and should not be altered for any reason unless person doing so knows what they are doing and knows the implications of their changes.
+f. PPI tables - this step is a data node. This node contains the datasets for the lookup tables to be used for calculating the *Progress out of Poverty Index (PPI)*. This step is a critical step and should not be altered for any reason unless person doing so knows what they are doing and knows the implications of their changes.
 
-	g. Choose country - this step produces a dialog box that prompts user to provide specific information which in this case is the country in which the survey has been done. Currently, the survey instruments/questionnaires that are standard for the WSUP Urban Water and Sanitation Surveys doesn't record information in terms of the country and the city in which the survey is being performed (something that is critically incorrect and unacceptable in a standard questionnaire which is meant to be used in different settings and locations). To address this issue, the user of this analysis workflow appropriates the country to which the current dataset to be processed pertains to. It should be noted how critically important it is that the appropriate country be selected as this will have an impact in the subsequent steps in the workflow.
+g. Choose country - this step produces a dialog box that prompts user to provide specific information which in this case is the country in which the survey has been done. Currently, the survey instruments/questionnaires that are standard for the WSUP Urban Water and Sanitation Surveys doesn't record information in terms of the country and the city in which the survey is being performed (something that is critically incorrect and unacceptable in a standard questionnaire which is meant to be used in different settings and locations). To address this issue, the user of this analysis workflow appropriates the country to which the current dataset to be processed pertains to. It should be noted how critically important it is that the appropriate country be selected as this will have an impact in the subsequent steps in the workflow.
 
-	h. Get country name - once the user provides the country, this information is processed and the workflow extracts this information and adds information into the dataset so that it will now contain country and city location information. This step is dependent on the input in *g*.
+h. Get country name - once the user provides the country, this information is processed and the workflow extracts this information and adds information into the dataset so that it will now contain country and city location information. This step is dependent on the input in *g*.
 
 3. **Step 2a: Read survey data**
 
@@ -92,15 +92,15 @@ It should be noted that this processing step is specific to the Dhaka, Banglades
 
 This step recodes survey data and calculates the various indicators based on the analysis that will be done. Indicator sets produced are:                                              
 
-	a. Poverty indicator - based on Progress out of Poverty Index
+a. Poverty indicator - based on Progress out of Poverty Index
 
-	b. Water indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
+b. Water indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
 
-	c. Sanitation indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
+c. Sanitation indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
 
-	d. Handwashing indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
+d. Handwashing indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
 
-	e. Hygiene indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
+e. Hygiene indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
 
 Indicator sets are merged into a single indicator dataframe and is saved as a comma-separated value (CSV) file in the 'data' folder in the working directory. If you have any further queries with regard to the poverty indicators, visit the PPI website for further information. For further queries on water, sanitation and hygiene indicators, enquire from WSUP for their extensive documentation on their water, sanitation handwashing and hygiene indicators.
 
@@ -112,17 +112,17 @@ Classification of results for proportion-type of indicators was first recommende
 
 When initiating this step, the user is first prompted to provide the following information:
 
-	a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
 
-	b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the 'data' folder in the current working directory.
+b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the 'data' folder in the current working directory.
 
-	c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
+c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
 
 Once the datasets have been provided, the next steps involve the actual classification of results. The different steps in this are:
 
-	a. Specify LQAS parameters - the user will be asked to specify two cut-off points to which results will be classified. The default upper and lower standards are 50% and 80%. For further information on how to properly set LQAS standards, refer to the design document that is available from WSUP through [Jonathan Stokes](mailto:jstokes@wsup.com).
+a. Specify LQAS parameters - the user will be asked to specify two cut-off points to which results will be classified. The default upper and lower standards are 50% and 80%. For further information on how to properly set LQAS standards, refer to the design document that is available from WSUP through [Jonathan Stokes](mailto:jstokes@wsup.com).
 
-	b. Classify by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the classification on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassXXXMmmYYYY.csv’*** where:
+b. Classify by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the classification on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassXXXMmmYYYY.csv’*** where:
 
 ```
 
@@ -138,7 +138,7 @@ Once the datasets have been provided, the next steps involve the actual classifi
 
 ```
 
-	c. Classify by wealth - this step classifies the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the classification on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassWealthXXXMmmYYYY.csv’*** where:
+c. Classify by wealth - this step classifies the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the classification on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassWealthXXXMmmYYYY.csv’*** where:
 
 ```
 
@@ -154,7 +154,7 @@ Once the datasets have been provided, the next steps involve the actual classifi
 
 ```
 
-	d. Classify overall - this step classifies the indicator data for the whole dataset. Classification is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassOverallXXXMmmYYYY.csv’*** where:
+d. Classify overall - this step classifies the indicator data for the whole dataset. Classification is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassOverallXXXMmmYYYY.csv’*** where:
 
 ```
 
@@ -178,32 +178,17 @@ This step is part of the last steps of the workflow that analyses the data and p
 
 When initiating this step, the user is first prompted to provide the following information:
 
-	a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
+a. Steering file - the user will be asked to provide the steering file that maps out the indicator sets that will be analysed. This steering file was created based on the WSUP standard indicator sets. A copy of this steering file is available from this repository and can be used for all other city survey data.
 
-	b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the *’data’* folder in the current working directory of the workflow.
+b. Indicator data - the user will be asked to provide the indicator data file. This will be the indicator data that has been produced in Step 2b. This can be found in the *’data’* folder in the current working directory of the workflow.
 
-	c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
+c. Population data - the user will be asked to provide the population data file. This is the file described in the introduction. It should be noted that the population data file needs to be in the exact format described earlier specifically the variable names and the required data columns for it to be properly used in the analysis. Note also that for classification, the population data is not used but the user is still asked to provide this information.
 
 Once the datasets have been provided, the next steps involve the actual estimation of results. The different steps in this are:
 
-	a. Specify bootstrap parameters - the user will be asked to specify the number of replicates to perform for bootstrap estimation. The default is 399 replicates. It is recommended that the number of replicates be no less than this default number. For further information on setting bootstrap replicates, refer to the design document that is available from [WSUP](http://www.wsup.com) through [Jonathan Stokes](mailto:jstokes@wsup.com).
+a. Specify bootstrap parameters - the user will be asked to specify the number of replicates to perform for bootstrap estimation. The default is 399 replicates. It is recommended that the number of replicates be no less than this default number. For further information on setting bootstrap replicates, refer to the design document that is available from [WSUP](http://www.wsup.com) through [Jonathan Stokes](mailto:jstokes@wsup.com).
 
-	b. Estimate by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the estimation on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsXXXMmmYYYY.csv’*** where:
-
-```
-
-   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
-
-   Mmm  - three letter abbreviation of the month in which the 
-          survey that the dataset being analysed comes from was 
-          started.
-
-   YYYY - four digit number corresonding to the year in which 
-          the survey that the dataset being analysed comes from 
-          was started.
-```
-
-	c. Estimate by wealth - this step estimates the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the estimation on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsWealthXXXMmmYYYY.csv’*** where:
+b. Estimate by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the estimation on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsXXXMmmYYYY.csv’*** where:
 
 ```
 
@@ -216,10 +201,25 @@ Once the datasets have been provided, the next steps involve the actual estimati
    YYYY - four digit number corresonding to the year in which 
           the survey that the dataset being analysed comes from 
           was started.
+```
+
+c. Estimate by wealth - this step estimates the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the estimation on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsWealthXXXMmmYYYY.csv’*** where:
 
 ```
 
-	d. Estimate overall - this step estimates the indicator data for the whole dataset. Estimation is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsOverallXXXMmmYYYY.csv’*** where:
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
+
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresonding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
+```
+
+d. Estimate overall - this step estimates the indicator data for the whole dataset. Estimation is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsOverallXXXMmmYYYY.csv’*** where:
 
 ```
 
