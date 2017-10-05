@@ -6,7 +6,7 @@ This repository provides the analysis workflow for producing WASH indicator resu
 
 Currently, the sampling and survey methods have been tested and implemented in Dhaka, Bangladesh. Analysis is performed using [R](https://www.r-project.org) and should be implemented using the [RAnalyticFlow](http://r.analyticflow.com/en/) IDE.
 
-
+&nbsp;
 ## Getting Started
 
 Clone or download this repository into your computer. Unzip the contents of the downloaded *wash* ZIP folder into a directory on your computer making sure that all contents are organised in the same way as they were in the folder provided.
@@ -27,7 +27,7 @@ Once you have installed [R](https://www.r-project.org), you will need to install
 
 3. You have two survey datasets: 
 
-- dataset collected using the [WSUP](http://www.wsup.com)-designed questionnaire containing information provided by households; and,
+- dataset collected using the [WSUP](http://www.wsup.com)- designed questionnaire containing information provided by households; and,
 
 - dataset on estimated population of each primary sampling unit (PSU) that were surveyed. Both datasets should have a matching variable labelled as *’psu’* denoting the unique identifier for each of the PSUs in the survey.
 
@@ -78,15 +78,15 @@ g. Choose country - this step produces a dialog box that prompts user to provide
 
 h. Get country name - once the user provides the country, this information is processed and the workflow extracts this information and adds information into the dataset so that it will now contain country and city location information. This step is dependent on the input in *g*.
 
-3. Step 2a: Read survey data
+3. **Step 2a: Read survey data**
 This step asks the user to provide the survey dataset for the analysis. This will be the dataset collected using the questionnaire created by WSUP for the urban water and sanitation surveys. The survey dataset should have the variable named 'psu' which is the identifying information for the primary sampling units of the survey. It is important to ensure that the variable names are kept as specified above as this variable name will be used to match this survey dataset to the population dataset in later steps. The user will be prompted and guided through the data selection process. If no data file is selected or the wrong data file type is selected (data file should be in comma-separated value or CSV format), user will be prompted and warned accordingly. The survey dataset is required to be able to proceed with the next steps of the workflow.
 
-4. Step 2b: Read and process data
+4. **Step 2b: Read and process data**
 This step is an interim or sub-step. Raw cleaned survey data is processed and then saved as working data in the 'data' folder in the working directory. Codebooks are also produced for dataset documentation purposes and as reference. This is saved in the 'outputLists' folder. Data processing need only be done once as working details used for subsequent steps.
 
 It should be noted that this processing step is specific to the Dhaka, Bangladesh survey conducted in March 2017. Because of the nature of the questionnaire and how specific questions are asked and the responses provided, Dhaka-specific cleaning and processing of the data were performed. This step will most likely not work for other country surveys as no information is still known as to what kinds of inputs and responses will be provided by the respondents in the other countries.
 
-5. Step 3: Indicators
+5. **Step 3: Indicators**
 This step recodes survey data and calculates the various indicators based on the analysis that will be done. Indicator sets produced are:                                              
 
 a. Poverty indicator - based on Progress out of Poverty Index
@@ -100,7 +100,7 @@ d. Handwashing indicators - based on post-2015 Joint Monitoring Programme indica
 e. Hygiene indicators - based on post-2015 Joint Monitoring Programme indicator set and on WSUP-created indicator sets
 Indicator sets are merged into a single indicator dataframe and is saved as a comma-separated value (CSV) file in the 'data' folder in the working directory. If you have any further queries with regard to the poverty indicators, visit the PPI website for further information. For further queries on water, sanitation and hygiene indicators, enquire from WSUP for their extensive documentation on their water, sanitation handwashing and hygiene indicators.
 
-6. Step 4a: Classify
+6. **Step 4a: Classify**
 This step is part of the last steps of the workflow that analyses the data and produces indicator results. This step specifically performs a lot quality assurance sampling (LQAS) classification process that determines whether an indicator proportion results meets a specific standard or cut-off. If the indicator result is below standard, then it is classified as being low or a failure. If the indicator result is above standard then it is considered high or a success.
 
 Classification of results for proportion-type of indicators was first recommended as the option to use given the limited set of resources available to WSUP to perform the surveys thy set out to implement.
@@ -120,42 +120,54 @@ a. Specify LQAS parameters - the user will be asked to specify two cut-off point
 b. Classify by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the classification on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresponding to the year in which the 
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresponding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
 ```
 
 c. Classify by wealth - this step classifies the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the classification on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassWealthXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresonding to the year in which the 
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the  
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresonding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
 ```
 
 d. Classify overall - this step classifies the indicator data for the whole dataset. Classification is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsClassOverallXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresponding to the year in which the     
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresponding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
 ```
 
 Another node called *’Classify by corporation’* performs classification by north and south corporations of Dhaka, Bangladesh. This step is Dhaka-specific and should be initiated on its own if a north and south classification is required.
 
-7. Step 4b: Estimate
+7. **Step 4b: Estimate**
 This step is part of the last steps of the workflow that analyses the data and produces indicator results. This step specifically performs a blocked weighted bootstrap estimation of indicator results including a 95% CI around the estimate. This approach was added to the analysis to test the viability of an estimation approach for small sample sizes.
 
 When initiating this step, the user is first prompted to provide the following information:
@@ -172,43 +184,54 @@ a. Specify bootstrap parameters - the user will be asked to specify the number o
 b. Estimate by area - this step classifies the indicator data disaggregated by survey area. This step breaks the data into the different survey areas and performs the estimation on each of the datasets for each survey area for each of the indicators. All results for each survey area and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresonding to the year in which the 
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresonding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
 ```
 
 c. Estimate by wealth - this step estimates the indicator data disaggregated by wealth quintiles. This step breaks the data into the different quintiles and performs the estimation on each of the datasets for each wealth quintile for each of the indicators. All results for each wealth quintile and for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsWealthXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresonding to the year in which the 
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresonding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
 ```
 
 d. Estimate overall - this step estimates the indicator data for the whole dataset. Estimation is performed on each of the indicators using the full dataset. All results for each indicator is combined in a single data frame and saved as a CSV file in the *’outputTables’* folder found in the current working directory under the filename ***’surveyResultsOverallXXXMmmYYYY.csv’*** where:
 
 ```
-XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-Mmm  - three letter abbreviation of the month in which the 
-       survey that the dataset being analysed comes from was started.
+   XXX  - three letter ISO country code (i.e., Bangladesh - BGD)
 
-YYYY - four digit number corresponding to the year in which the 
-       survey that the dataset being analysed comes from was started.
+   Mmm  - three letter abbreviation of the month in which the 
+          survey that the dataset being analysed comes from was 
+          started.
+
+   YYYY - four digit number corresponding to the year in which 
+          the survey that the dataset being analysed comes from 
+          was started.
+
 ```
 
 Another node called *’Estimate by corporation’* performs estimation by north and south corporations of Dhaka, Bangladesh. This step is Dhaka-specific and should be initiated on its own if a north and south estimation is required.
 
-8. Step 4c: Combine results
-This step is the final step in the analysis process. This step looks for all the outputted results for classification and estimation at the different levels of disaggregation and combines them into a single data frame. Once combined, a further organisation of data is performed that converts the data frame into a format that is acceptable to the web application that will produce visualisation outputs from the results. This final data frame is saved in the 'outputTables' folder under the filename *’surveResultsAll.csv’*. This file has no location and time identifiers as it combines all completed results from all country surveys at all time periods.
+8. **Step 4c: Combine results**
+This step is the final step in the analysis process. This step looks for all the outputted results for classification and estimation at the different levels of disaggregation and combines them into a single data frame. Once combined, a further organisation of data is performed that converts the data frame into a format that is acceptable to the web application that will produce visualisation outputs from the results. This final data frame is saved in the 'outputTables' folder under the filename ***’surveyResultsAll.csv’***. This file has no location and time identifiers as it combines all completed results from all country surveys at all time periods.
 
 
 ## Built With
