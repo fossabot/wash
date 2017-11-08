@@ -251,6 +251,7 @@ This step is the final step in the analysis process. This step looks for all the
 ## Authors
 
 **Laura Bramley** - [Valid International, Ltd.](http://www.validinternational.org)
+
 **Ernest Guevarra** - [Valid International, Ltd.](http://www.validinternational.org)
 
 
