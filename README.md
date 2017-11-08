@@ -250,10 +250,11 @@ This step is the final step in the analysis process. This step looks for all the
 
 ## Authors
 
+**Laura Bramley** - [Valid International, Ltd.](http://www.validinternational.org)
 **Ernest Guevarra** - [Valid International, Ltd.](http://www.validinternational.org)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ernestguevarra/wash/blob/master/LICENSE.md) file for details
+This project is licensed under the AGPL-3.0 License - see the [LICENSE.md](https://github.com/ernestguevarra/wash/blob/master/LICENSE.md) file for details
 
