@@ -6,7 +6,7 @@ This repository provides the analysis workflow for producing WASH indicator resu
 
 Currently, the sampling and survey methods have been tested and implemented in Dhaka, Bangladesh. Analysis is performed using [R](https://www.r-project.org) and should be implemented using the [RAnalyticFlow](http://r.analyticflow.com/en/) IDE.
 
-&nbsp;
+<br/>
 ## Getting Started
 
 Clone or download this repository into your computer. Unzip the contents of the downloaded *wash* ZIP folder into a directory on your computer making sure that all contents are organised in the same way as they were in the folder provided.
@@ -37,7 +37,7 @@ The population data should also have as a minimum a variable providing the popul
 
 As an example, the Dhaka survey and population dataset is provided also in this repository (*surveyDataBGD.csv* and *popBGD.csv*).
 
-&nbsp;
+<br/>
 ## Running the analysis
 
 For instructions on how to run the workflow in [RAnalyticFlow](http://r.analyticflow.com), see these tutorials on [opening a workflow](https://www.dropbox.com/s/wrdhgq6i3g8jojk/rFlowOpenWSUP.pdf?dl=0) and [running a workflow](https://www.dropbox.com/s/rm9u679eev2yvrj/rFlowRunWSUP.pdf?dl=0).
@@ -241,20 +241,20 @@ Another node called *’Estimate by corporation’* performs estimation by north
 
 This step is the final step in the analysis process. This step looks for all the outputted results for classification and estimation at the different levels of disaggregation and combines them into a single data frame. Once combined, a further organisation of data is performed that converts the data frame into a format that is acceptable to the web application that will produce visualisation outputs from the results. This final data frame is saved in the 'outputTables' folder under the filename ***’surveyResultsAll.csv’***. This file has no location and time identifiers as it combines all completed results from all country surveys at all time periods.
 
-
+<br/>
 ## Built With
 
 * [R](https://www.r-project.org)
 * [RAnalyticFlow](http://r.analyticflow.com)
 
-
+<br/>
 ## Authors
 
 **Laura Bramley** - [Valid International, Ltd.](http://www.validinternational.org)
 
 **Ernest Guevarra** - [Valid International, Ltd.](http://www.validinternational.org)
 
-
+<br/>
 ## License
 
 This project is licensed under the AGPL-3.0 License - see the [LICENSE.md](https://github.com/ernestguevarra/wash/blob/master/LICENSE.md) file for details
