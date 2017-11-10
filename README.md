@@ -6,6 +6,7 @@ This repository provides the analysis workflow for producing WASH indicator resu
 
 Currently, the sampling and survey methods have been tested and implemented in Dhaka, Bangladesh. Analysis is performed using [R](https://www.r-project.org) and should be implemented using the [RAnalyticFlow](http://r.analyticflow.com/en/) IDE.
 
+<br/>
 
 ## Getting Started
 
@@ -37,6 +38,7 @@ The population data should also have as a minimum a variable providing the popul
 
 As an example, the Dhaka survey and population dataset is provided also in this repository (**`surveyDataBGD.csv`** and **`popBGD.csv`**).
 
+<br/>
 
 ## Running the analysis
 
@@ -261,12 +263,14 @@ Another node called **`Estimate by corporation`** performs estimation by north a
 
 This step is the final step in the analysis process. This step looks for all the outputted results for classification and estimation at the different levels of disaggregation and combines them into a single data frame. Once combined, a further organisation of data is performed that converts the data frame into a format that is acceptable to the web application that will produce visualisation outputs from the results. This final data frame is saved in the **`outputTables`** folder under the filename **`surveyResultsAll.csv`**. This file has no location and time identifiers as it combines all completed results from all country surveys at all time periods.
 
+<br/>
 
 ## Built With
 
 * [R](https://www.r-project.org)
 * [RAnalyticFlow](http://r.analyticflow.com)
 
+<br/>
 
 ## Authors
 
@@ -274,6 +278,7 @@ This step is the final step in the analysis process. This step looks for all the
 
 **Ernest Guevarra** - [Valid International, Ltd.](http://www.validinternational.org)
 
+<br/>
 
 ## License
 
