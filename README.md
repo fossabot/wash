@@ -6,10 +6,10 @@ This repository provides the analysis workflow for producing WASH indicator resu
 
 Currently, the sampling and survey methods have been tested and implemented in Dhaka, Bangladesh. Analysis is performed using [R](https://www.r-project.org) and should be implemented using the [RAnalyticFlow](http://r.analyticflow.com/en/) IDE.
 
-<br/>
+
 ## Getting Started
 
-Clone or download this repository into your computer. Unzip the contents of the downloaded *wash* ZIP folder into a directory on your computer making sure that all contents are organised in the same way as they were in the folder provided.
+Clone or download this repository into your computer. If you used download, unzip the contents of the downloaded *wash* ZIP folder into a directory on your computer making sure that all contents are organised in the same way as they were in the folder provided.
 
 [R](https://www.r-project.org) is directory-specific and most of the commands in the workflow and in the additional [R](https://www.r-project.org) scripts were written in such a way that is oriented to the directory structure of the provided data package.
 
@@ -27,9 +27,9 @@ Once you have installed [R](https://www.r-project.org), you will need to install
 
 3. You have two survey datasets: 
 
-- dataset collected using the [WSUP](http://www.wsup.com)- designed questionnaire containing information provided by households; and,
+* dataset collected using the [WSUP](http://www.wsup.com)- designed questionnaire containing information provided by households; and,
 
-- dataset on estimated population of each primary sampling unit (PSU) that were surveyed. Both datasets should have a matching variable labelled as *’psu’* denoting the unique identifier for each of the PSUs in the survey.
+* dataset on estimated population of each primary sampling unit (PSU) that were surveyed. Both datasets should have a matching variable labelled as *’psu’* denoting the unique identifier for each of the PSUs in the survey.
 
 The survey dataset should have exactly the same structure as the data that is created by the [mWater](http://www.mwater.co) data collection system setup by [WSUP](http://www.wsup.com) and that was used for the Bangladesh pilot survey. Any changes to this standard questionnaire that changes the internal data structure of the survey dataset will result, at the very least, in analysis not to be possible for specific data elements whose structure has been changed and at worst case, break the analysis workflow without any analysis output produced unless corresponding modifications are implemented. Any changes to this standard questionnaire that adds variables to the dataset (without affecting the internal structure of the dataset itself) will most likely result in the added variables not being analysed unless corresponding modifications are made on the analysis workflow to deal with the added variables. However, if such additional variables are in someway linked to the standard variables and is required for producing analysis, then this is the same as changing the internal structure of the dataset and will result in the workflow being unable to produce any analysis outputs without corresponding modifications to the analysis workflow.
 
@@ -37,7 +37,7 @@ The population data should also have as a minimum a variable providing the popul
 
 As an example, the Dhaka survey and population dataset is provided also in this repository (*surveyDataBGD.csv* and *popBGD.csv*).
 
-<br/>
+
 ## Running the analysis
 
 For instructions on how to run the workflow in [RAnalyticFlow](http://r.analyticflow.com), see these tutorials on [opening a workflow](https://www.dropbox.com/s/wrdhgq6i3g8jojk/rFlowOpenWSUP.pdf?dl=0) and [running a workflow](https://www.dropbox.com/s/rm9u679eev2yvrj/rFlowRunWSUP.pdf?dl=0).
