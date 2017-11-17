@@ -26,6 +26,63 @@ set.seed(1977)
 library(ggplot2)
 library(Hmisc)
 
+
+################################################################################
+#
+# Function for precision / relative precision
+#
+################################################################################
+#
+#
+#
+precise <- function(lower, upper, data)
+  {
+  #
+  #
+  #
+  x <- (data[[upper]] - data[[lower]]) / 2
+  #
+  #
+  #
+  return(x)
+  }
+#
+#
+#  
+rel.precise <- function(lower, upper, estimate, data)
+  {
+  #
+  #
+  #
+  x <- precise(lower, upper, data) / data[[estimate]]
+  #
+  #
+  #
+  return(x)
+  }
+
+
+################################################################################
+#
+# Create WSUP theme for shiny
+#
+################################################################################
+
+theme_article <- theme_bw() + 
+                 theme(strip.text = element_text(size = 8), 
+                       strip.background = element_rect(colour = "gray70", size = 0.5),
+                       axis.title = element_text(size = 8),
+                       axis.text = element_text(size = 6),
+                       panel.border = element_rect(colour = "gray70"),
+                       panel.grid = element_line(size = 0.2),
+                       panel.grid.minor = element_line(size = 0.2, linetype = 3),
+                       panel.background = element_rect(fill = "transparent"),
+                       legend.key = element_rect(colour = NA, fill = NA),
+                       legend.key.size = unit(15, "pt"),
+                       legend.title = element_text(size = 8),
+                       legend.text = element_text(size = 6))
+
+
 #
 #
 #
@@ -33,11 +90,8 @@ indicatorsDF <- read.csv("indicatorsDataBGDMar2017.csv", header = TRUE, sep = ",
 resultsDF <- read.csv("surveyResultsBGDMar2017.csv", header = TRUE, sep = ",")
 
 
-jmpCode <- c("jmpWater1", "jmpWater2", "jmpWater3", "jmpWater4", "jmpWater5",
-             "jmpSan1", "jmpSan2", "jmpSan3", "jmpSan4", "jmpSan5",
-             "jmpHand1", "jmpHand2", "jmpHand3")
-
-
+jmpCode <- c("jmpWater1", "jmpWater2", "jmpWater3", "jmpWater4",
+             "jmpSan1", "jmpSan2", "jmpSan3", "jmpSan4")
 #
 #
 #
@@ -45,17 +99,17 @@ jmpIndicatorsDF <- indicatorsDF[ , c("uniqueID", "psu", "zone", "type",
                                      "quadrat", "hhid", "longitude", "latitude", 
                                      "pQuintile",
                                      jmpCode)]
-                                     
+#
+#
+#                                     
 jmpResultsDF <- resultsDF[resultsDF$indicatorCode %in% jmpCode, ]
-
-
 #
 # WASH ladder indicators colour schemes
 #
-waterLadder <- c("#4575b4", "#74add1", "#ffffbf", "#feb24c", "#ec7014")
-sanitationLadder <- c("#1a9850", "#a6d96a", "#ffffbf", "#feb24c", "#ec7014")
-handwashLadder <- c("#cab2d6", "#feb24c", "#ec7014")
-
+#waterLadder <- c("#4575b4", "#74add1", "#ffffbf", "#feb24c", "#ec7014")
+#sanitationLadder <- c("#1a9850", "#a6d96a", "#ffffbf", "#feb24c", "#ec7014")
+waterLadder <- c("#74add1", "#ffffbf", "#feb24c", "#ec7014")
+sanitationLadder <- c("#a6d96a", "#ffffbf", "#feb24c", "#ec7014")
 
 #
 #
@@ -96,9 +150,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #
@@ -145,9 +198,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #
@@ -198,9 +250,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #
@@ -247,9 +298,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #
@@ -286,9 +336,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #  
@@ -313,9 +362,8 @@ for(i in jmpCode)
   #
   #
   #
-  indicatorSet <- ifelse(i %in% c("jmpHand1", "jmpHand2", "jmpHand3"), "Handwashing",
-                    ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
-                                    "jmpWater4", "jmpWater5"), "Water Source", "Sanitation Facility"))
+  indicatorSet <- ifelse(i %in% c("jmpWater1", "jmpWater2", "jmpWater3", 
+                                  "jmpWater4"), "Water Source", "Sanitation Facility")
   #
   #
   #  
@@ -347,25 +395,6 @@ row.names(results.deff) <- 1:nrow(results.deff)
 write.csv(results.deff, "resultsDEFF.csv", row.names = FALSE)
 
 
-################################################################################
-#
-# Create WSUP theme for shiny
-#
-################################################################################
-
-theme_article <- theme_bw() + 
-                 theme(strip.text = element_text(size = 8), 
-                       strip.background = element_rect(colour = "gray70", size = 0.5),
-                       axis.title = element_text(size = 8),
-                       axis.text = element_text(size = 6),
-                       panel.border = element_rect(colour = "gray70"),
-                       panel.grid = element_line(size = 0.2),
-                       panel.grid.minor = element_line(size = 0.2, linetype = 3),
-                       panel.background = element_rect(fill = "transparent"),
-                       legend.key = element_rect(colour = NA, fill = NA),
-                       legend.key.size = unit(15, "pt"),
-                       legend.title = element_text(size = 8),
-                       legend.text = element_text(size = 6))
 
 
 ################################################################################
@@ -400,17 +429,15 @@ summary(results.deff[results.deff$strataSet == "Overall" & results.deff$type == 
 #
 results.deff$indicatorCode <- factor(results.deff$indicatorCode, 
                                      levels = c("jmpSan1", "jmpSan2", "jmpSan3", 
-                                                "jmpSan4", "jmpSan5",
+                                                "jmpSan4",
                                                 "jmpWater1", "jmpWater2", "jmpWater3", 
-                                                "jmpWater4", "jmpWater5",
-                                                "jmpHand1", "jmpHand2", "jmpHand3")) 
+                                                "jmpWater4")) 
 #
 #
 #
 results.deff$indicatorSet <- factor(results.deff$indicatorSet, 
                                     levels = c("Sanitation Facility", 
-                                               "Water Source", 
-                                               "Handwashing"))
+                                               "Water Source"))
 #
 #
 #                                               
@@ -439,62 +466,44 @@ pointPlot <- geom_point(alpha = 0.8)
 #
 #    
 pointColour <- scale_colour_manual(name = "Indicators",
-                                   values = c(rep("#1a9850", 5), 
-                                              rep("#4575b4", 5), 
-                                              rep("#756bb1", 3)),
+                                   values = c(rep("#1a9850", 4), 
+                                              rep("#4575b4", 4)),
                                    labels = c("Open defecation", 
                                               "Unimproved sanitation facility", 
                                               "Limited sanitation facility", 
-                                              "Basic sanitation facility", 
-                                              "Safely-managed sanitation facility",
+                                              "Basic sanitation facility",
                                               "Surface water", 
                                               "Unimproved water source", 
                                               "Limited water source", 
-                                              "Basic water source", 
-                                              "Basic water source plus",
-                                              "No handwashing facility", 
-                                              "Limited handwashing facility", 
-                                              "Basic handwasing facility"))           
+                                              "Basic water source"))           
 #
 #
 #    
 pointFill <- scale_fill_manual(name = "Indicators",
-                               values = c(rep("#1a9850", 5), 
-                                          rep("#4575b4", 5), 
-                                          rep("#756bb1", 3)),
+                               values = c(rep("#1a9850", 4), 
+                                          rep("#4575b4", 4)),
                                labels = c("Open defecation", 
                                           "Unimproved sanitation facility", 
                                           "Limited sanitation facility", 
-                                          "Basic sanitation facility", 
-                                          "Safely-managed sanitation facility",
+                                          "Basic sanitation facility",
                                           "Surface water", 
                                           "Unimproved water source", 
                                           "Limited water source", 
-                                          "Basic water source", 
-                                          "Basic water source plus",
-                                          "No handwashing facility", 
-                                          "Limited handwashing facility", 
-                                          "Basic handwasing facility"))           
+                                          "Basic water source"))           
 #
 #
 #    
 pointShape <- scale_shape_manual(name = "Indicators",
-                                 values = c(21, 22, 23, 24, 25,
-                                            21, 22, 23, 24, 25,
-                                            21, 22, 23),
+                                 values = c(21, 22, 23, 24,
+                                            21, 22, 23, 24),
                                  labels = c("Open defecation", 
                                             "Unimproved sanitation facility", 
                                             "Limited sanitation facility", 
-                                            "Basic sanitation facility", 
-                                            "Safely-managed sanitation facility",
+                                            "Basic sanitation facility",
                                             "Surface water", 
                                             "Unimproved water source", 
                                             "Limited water source", 
-                                            "Basic water source", 
-                                            "Basic water source plus",
-                                            "No handwashing facility", 
-                                            "Limited handwashing facility", 
-                                            "Basic handwasing facility"))
+                                            "Basic water source"))
 #
 #
 #
@@ -551,39 +560,7 @@ basePlot + pointPlot +
 dev.off()
 
 
-################################################################################
-#
-# Function for precision / relative precision
-#
-################################################################################
-#
-#
-#
-precise <- function(lower, upper, data)
-  {
-  #
-  #
-  #
-  x <- (data[[upper]] - data[[lower]]) / 2
-  #
-  #
-  #
-  return(x)
-  }
-#
-#
-#  
-rel.precise <- function(lower, upper, estimate, data)
-  {
-  #
-  #
-  #
-  x <- precise(lower, upper, data) / data[[estimate]]
-  #
-  #
-  #
-  return(x)
-  }
+
   
   
 ################################################################################
@@ -622,20 +599,14 @@ indicator[jmpResultsDF$indicatorCode == "jmpWater1"] <- "Surface water"
 indicator[jmpResultsDF$indicatorCode == "jmpWater2"] <- "Unimproved water source"
 indicator[jmpResultsDF$indicatorCode == "jmpWater3"] <- "Limited water source"
 indicator[jmpResultsDF$indicatorCode == "jmpWater4"] <- "Basic water source"
-indicator[jmpResultsDF$indicatorCode == "jmpWater5"] <- "Safely-managed water source"
 indicator[jmpResultsDF$indicatorCode == "jmpSan1"]   <- "Open defecation"
 indicator[jmpResultsDF$indicatorCode == "jmpSan2"]   <- "Unimproved sanitation facility"
 indicator[jmpResultsDF$indicatorCode == "jmpSan3"]   <- "Limited sanitation facility"
 indicator[jmpResultsDF$indicatorCode == "jmpSan4"]   <- "Basic sanitation facility"
-indicator[jmpResultsDF$indicatorCode == "jmpSan5"]   <- "Safely-managed sanitation facility"
-indicator[jmpResultsDF$indicatorCode == "jmpHand1"]  <- "No handwashing facility"
-indicator[jmpResultsDF$indicatorCode == "jmpHand2"]  <- "Limited handwashing facility"
-indicator[jmpResultsDF$indicatorCode == "jmpHand3"]  <- "Basic handwashing facility"
 #
 #
 #
-indicatorSet <- ifelse(grepl("jmpWater", jmpResultsDF$indicatorCode), "Water Source",
-                  ifelse(grepl("jmpSan", jmpResultsDF$indicatorCode), "Sanitation Facility", "Handwashing Facility"))
+indicatorSet <- ifelse(grepl("jmpWater", jmpResultsDF$indicatorCode), "Water Source", "Sanitation Facility")
 #
 #
 #
@@ -711,17 +682,13 @@ summary(results.precision[results.precision$strataSet == "Overall" & results.pre
 #
 results.precision$indicatorCode <- factor(results.precision$indicatorCode,
                                           levels = c("jmpSan1", "jmpSan2", 
-                                                     "jmpSan3", "jmpSan4", 
-                                                     "jmpSan5",
+                                                     "jmpSan3", "jmpSan4",
                                                      "jmpWater1", "jmpWater2", 
-                                                     "jmpWater3", "jmpWater4", 
-                                                     "jmpWater5",
-                                                     "jmpHand1", "jmpHand2", "jmpHand3")) 
+                                                     "jmpWater3", "jmpWater4")) 
 
 results.precision$indicatorSet <- factor(results.precision$indicatorSet,
                                          levels = c("Sanitation Facility", 
-                                                    "Water Source", 
-                                                    "Handwashing Facility"))
+                                                    "Water Source"))
 
 results.precision$type <- factor(results.precision$type,
                                  levels = c("Slum", "Citywide"))
@@ -746,56 +713,41 @@ pointPlot <- geom_point(stat = "identity", alpha = 0.8)
 #
 #    
 pointColour <- scale_colour_manual(name = "Indicators",
-                                   values = c(rev(sanitationLadder), rev(waterLadder), rev(handwashLadder)),
+                                   values = c(rev(sanitationLadder), rev(waterLadder)),
                                    labels = c("Open defecation", 
                                               "Unimproved sanitation facility", 
                                               "Limited sanitation facility", 
-                                              "Basic sanitation facility", 
-                                              "Safely-managed sanitation facility",
+                                              "Basic sanitation facility",
                                               "Surface water", 
                                               "Unimproved water source", 
                                               "Limited water source", 
-                                              "Basic water source", 
-                                              "Safely-managed water source",
-                                              "No handwashing facility", 
-                                              "Limited handwashing facility", 
-                                              "Basic handwasing facility"))           
+                                              "Basic water source"))           
 #
 #
 #    
 pointFill <- scale_fill_manual(name = "Indicators",
-                               values = c(rev(sanitationLadder), rev(waterLadder), rev(handwashLadder)),
+                               values = c(rev(sanitationLadder), rev(waterLadder)),
                                labels = c("Open defecation", 
                                           "Unimproved sanitation facility", 
                                           "Limited sanitation facility", 
-                                          "Basic sanitation facility", 
-                                          "Safely-managed sanitation facility",
+                                          "Basic sanitation facility",
                                           "Surface water", 
                                           "Unimproved water source", 
                                           "Limited water source", 
-                                          "Basic water source", 
-                                          "Safely-managed water source",
-                                          "No handwashing facility", 
-                                          "Limited handwashing facility", 
-                                          "Basic handwasing facility"))           
+                                          "Basic water source"))           
 #
 #
 #    
 pointShape <- scale_shape_manual(name = "Indicators",
-                                 values = c(rep(21, 5), rep(22, 5), rep(23, 3)),
+                                 values = c(rep(21, 4), rep(22, 4)),
                                  labels = c("Open defecation", 
                                             "Unimproved sanitation facility", 
                                             "Limited sanitation facility", 
-                                            "Basic sanitation facility", 
-                                            "Safely-managed sanitation facility",
+                                            "Basic sanitation facility",
                                             "Surface water", 
                                             "Unimproved water source", 
                                             "Limited water source", 
-                                            "Basic water source", 
-                                            "Safely-managed water source",
-                                            "No handwashing facility", 
-                                            "Limited handwashing facility", 
-                                            "Basic handwasing facility"))
+                                            "Basic water source"))
 
 png("precision.png", height = 6, width = 12, units = "in", res = 300)
 
@@ -863,12 +815,9 @@ pointPlot <- geom_point(stat = "identity", alpha = 0.8)
 #
 results.precision$indicatorCode <- factor(results.precision$indicatorCode,
                                           levels = c(rev(c("jmpSan1", "jmpSan2", 
-                                                           "jmpSan3", "jmpSan4", 
-                                                           "jmpSan5")),
+                                                           "jmpSan3", "jmpSan4")),
                                                      rev(c("jmpWater1", "jmpWater2", 
-                                                           "jmpWater3", "jmpWater4", 
-                                                           "jmpWater5")),
-                                                     rev(c("jmpHand1", "jmpHand2", "jmpHand3")))) 
+                                                           "jmpWater3", "jmpWater4")))) 
 
 #
 # Base plot
@@ -885,22 +834,15 @@ barPlot <- geom_bar(stat = "identity", position = "fill", alpha = 0.8)
 # Bar fill
 #
 barFill <- scale_fill_manual(name = "Indicators",
-                               values = c(sanitationLadder, waterLadder, handwashLadder),
+                               values = c(sanitationLadder, waterLadder),
                                labels = c(rev(c("Open defecation", 
                                                 "Unimproved sanitation facility", 
                                                 "Limited sanitation facility", 
-                                                "Basic sanitation facility", 
-                                                "Safely-managed sanitation facility")),
+                                                "Basic sanitation facility")),
                                           rev(c("Surface water", 
                                                 "Unimproved water source", 
                                                 "Limited water source", 
-                                                "Basic water source", 
-                                                "Safely-managed water source")),
-                                          rev(c("No handwashing facility", 
-                                                "Limited handwashing facility", 
-                                                "Basic handwasing facility"))))
-
-
+                                                "Basic water source"))))
 #
 # Facets
 #
