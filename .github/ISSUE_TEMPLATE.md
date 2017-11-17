@@ -21,5 +21,5 @@
 [not obligatory, but suggest fixes or reasons for the bug]
 
 
-##`name of issue` screenshot
+## `name of issue` screenshot
 [if relevant, include a screenshot]
