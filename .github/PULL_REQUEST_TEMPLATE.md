@@ -1,4 +1,4 @@
-## Bug Fixes **ONLY**. NO NEW FEATURE/S ACCEPTED!
+# Bug Fixes **ONLY**. NO NEW FEATURE/S ACCEPTED!
 
 <!--- Provide a general summary of your changes in the Title above -->
 
