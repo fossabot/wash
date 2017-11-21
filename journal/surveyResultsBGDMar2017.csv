@@ -1,49 +1,49 @@
 "country","countryCode","month","year","indicatorName","indicatorCode","strata","slumTotal","slumCases","slumClass","otherTotal","otherCases","otherClass","total","slumEst","slumLCL","slumUCL","otherEst","otherLCL","otherUCL","totalEst","totalLCL","totalUCL"
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 1",64,0,NA,64,0,NA,128,797.7941,179.9632,3272.0588,415.1515,0,2212.1212,620.8955,74.0672,1917.556
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 2",64,0,NA,64,0,NA,128,701.875,274.9266,1382.6828,898.4848,117.9924,2365.3788,759.3363,337.4137,1281.8617
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 3",64,0,NA,64,0,NA,128,1.0938,0.1562,188.4453,909.0909,0,3402.2727,730.7692,0.1538,2134.0692
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 4",64,0,NA,64,0,NA,128,485.303,242.8788,788.3485,26.3636,0,134.1061,102.4242,16.5068,223.2462
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 5",64,0,NA,64,0,NA,128,0,0,151.5152,369.697,17.9167,1307.1591,223.8636,20.3977,829.053
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 6",64,0,NA,64,0,NA,128,1272.7273,0,3796.2121,1616.6667,30.0758,5530.7576,1668.9394,249.9242,3890.9091
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 7",64,0,NA,64,0,NA,128,30.303,0,121.2121,833.3333,0,2348.4848,795.4545,151.5152,1591.6667
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 8",64,0,NA,64,0,NA,128,93.1034,0,865.6897,776.4706,61.7647,1948.9706,819.0476,228.254,1733.9683
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 9",64,0,NA,64,0,NA,128,0,0,270.2703,1062.5,93.75,2375.7812,608.6957,144.9275,1225.7246
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 1",64,0,NA,64,0,NA,128,666.6667,0,2000,665.1515,230.8333,1257.3571,656,266.6667,1168.3333
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 2",64,0,NA,64,0,NA,128,337.5,100,593.6667,618.1818,138.4829,1773.3766,401.3514,169.2067,737.113
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 3",64,0,NA,64,0,NA,128,NA,NA,NA,1000,500,1200,1000,500,1200
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 4",64,0,NA,64,0,NA,128,100,0,500,3200,1217.5,7000,3202.6316,1247.1875,5942.2222
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 5",64,0,NA,64,0,NA,128,NA,NA,NA,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 6",64,0,NA,64,0,NA,128,2666.6667,750,6840,240,0,800,700,0,3688.8889
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 7",64,0,NA,64,0,NA,128,10,10,10,1225,500,2000,836.6667,10,2000
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 8",64,0,NA,64,0,NA,128,400,0,1200,2000,2000,2000,2000,943.3333,2000
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 9",64,0,NA,64,0,NA,128,2000,2000,2000,700,0,2000,700,0,2000
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 1",64,0,NA,64,0,NA,128,6.8824,6.6307,7,7,7,7,6.9688,6.8636,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 2",64,0,NA,64,0,NA,128,6.859,6.653,6.9756,7,6.9242,7,6.8667,6.7262,6.9561
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 3",64,0,NA,64,0,NA,128,7,7,7,7,6.9091,7,7,6.9538,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 4",64,0,NA,64,0,NA,128,7,7,7,6.9697,6.9091,7,6.9773,6.9394,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 5",64,0,NA,64,0,NA,128,6.9394,6.7417,7,7,7,7,6.9697,6.8712,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 6",64,0,NA,64,0,NA,128,7,6.9091,7,7,7,7,7,6.9697,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 7",64,0,NA,64,0,NA,128,7,7,7,7,7,7,7,7,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 8",64,0,NA,64,0,NA,128,7,6.9483,7,7,7,7,7,6.9921,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 9",64,0,NA,64,0,NA,128,7,6.9459,7,7,7,7,7,6.971,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 1",64,0,NA,64,0,NA,128,16.6471,14.0721,18.6471,12.9672,10.0747,15.608,14.2149,12.1097,16.0354
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 2",64,0,NA,64,0,NA,128,12.057,10.0601,14.3017,11.5652,8.5598,15.1809,12.0274,10.3423,13.8211
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 3",64,0,NA,64,0,NA,128,16.2969,13.8281,18.425,10.4848,7.9629,13.4363,12.2832,10.5847,14.2727
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 4",64,0,NA,64,0,NA,128,20.3333,18.147,22.2758,18.2553,14.7648,21.3417,18.566,16.2627,20.4422
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 5",64,0,NA,64,0,NA,128,20.1515,17.847,22.2727,21.2549,18.1848,23.4449,20.7549,18.8469,22.3686
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 6",64,0,NA,64,0,NA,128,16.1304,14.3187,18,19.8788,17.1818,22.3076,19.4375,17.4369,21.1721
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 7",64,0,NA,64,0,NA,128,13.9062,12.1203,15.6151,14.3171,10.1438,18.3655,14.25,12.1227,16.584
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 8",64,0,NA,64,0,NA,128,19.8621,18.069,21.3793,16.25,11.9004,20.6193,16.8605,13.9112,19.7451
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 9",64,0,NA,64,0,NA,128,17.8378,16.297,19.1764,16.8333,10.9857,21.9672,17.4845,15.7825,19.432
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 1",64,0,NA,64,0,NA,128,0.3676,0,1.4853,0.7273,0.2568,1.4295,0.6493,0.2612,1.1944
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 2",64,0,NA,64,0,NA,128,1.375,0.2484,2.9688,1.6515,0.5288,3.4553,1.4823,0.5035,2.7363
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 3",64,0,NA,64,0,NA,128,0.3125,0,1.1266,0.4697,0.0598,1.3492,0.4,0.0765,0.9619
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 4",64,0,NA,64,0,NA,128,10,4.5379,16.1402,0.0606,0,0.1818,1.3939,0.0303,3.3943
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 5",64,0,NA,64,0,NA,128,0,0,1.5152,0.4545,0,6.3371,0.8712,0,3.7519
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 6",64,0,NA,64,0,NA,128,3.3182,0.7106,7.0318,0,0,0.6061,0.3788,0,1.6595
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 7",64,0,NA,64,0,NA,128,3.0303,0.7538,5.6818,1.4545,0.0909,3.5008,1.5682,0.3326,2.9193
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 8",64,0,NA,64,0,NA,128,2.5,0.2707,6.2931,0,0,2.6471,0.6349,0,2.1429
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 9",64,0,NA,64,0,NA,128,0.2297,0,1.4642,0.2031,0,0.768,0.2899,0,0.9431
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 1",68,0,NA,66,0,NA,134,797.7941,179.9632,3272.0588,415.1515,0,2212.1212,620.8955,74.0672,1917.556
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 2",160,0,NA,66,0,NA,226,701.875,274.9266,1382.6828,898.4848,117.9924,2365.3788,759.3363,337.4137,1281.8617
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 3",64,0,NA,66,0,NA,130,1.0938,0.1562,188.4453,909.0909,0,3402.2727,730.7692,0.1538,2134.0692
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 4",66,0,NA,66,0,NA,132,485.303,242.8788,788.3485,26.3636,0,134.1061,102.4242,16.5068,223.2462
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 5",66,0,NA,66,0,NA,132,0,0,151.5152,369.697,17.9167,1307.1591,223.8636,20.3977,829.053
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 6",66,0,NA,66,0,NA,132,1272.7273,0,3796.2121,1616.6667,30.0758,5530.7576,1668.9394,249.9242,3890.9091
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 7",66,0,NA,66,0,NA,132,30.303,0,121.2121,833.3333,0,2348.4848,795.4545,151.5152,1591.6667
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 8",58,0,NA,68,0,NA,126,93.1034,0,865.6897,776.4706,61.7647,1948.9706,819.0476,228.254,1733.9683
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Survey Area 9",74,0,NA,64,0,NA,138,0,0,270.2703,1062.5,93.75,2375.7812,608.6957,144.9275,1225.7246
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 1",68,0,NA,66,0,NA,134,666.6667,0,2000,665.1515,230.8333,1257.3571,656,266.6667,1168.3333
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 2",160,0,NA,66,0,NA,226,337.5,100,593.6667,618.1818,138.4829,1773.3766,401.3514,169.2067,737.113
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 3",64,0,NA,66,0,NA,130,NA,NA,NA,1000,500,1200,1000,500,1200
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 4",66,0,NA,66,0,NA,132,100,0,500,3200,1217.5,7000,3202.6316,1247.1875,5942.2222
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 5",66,0,NA,66,0,NA,132,NA,NA,NA,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 6",66,0,NA,66,0,NA,132,2666.6667,750,6840,240,0,800,700,0,3688.8889
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 7",66,0,NA,66,0,NA,132,10,10,10,1225,500,2000,836.6667,10,2000
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 8",58,0,NA,68,0,NA,126,400,0,1200,2000,2000,2000,2000,943.3333,2000
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Survey Area 9",74,0,NA,64,0,NA,138,2000,2000,2000,700,0,2000,700,0,2000
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 1",68,0,NA,66,0,NA,134,6.8824,6.6307,7,7,7,7,6.9688,6.8636,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 2",160,0,NA,66,0,NA,226,6.859,6.653,6.9756,7,6.9242,7,6.8667,6.7262,6.9561
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 3",64,0,NA,66,0,NA,130,7,7,7,7,6.9091,7,7,6.9538,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 4",66,0,NA,66,0,NA,132,7,7,7,6.9697,6.9091,7,6.9773,6.9394,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 5",66,0,NA,66,0,NA,132,6.9394,6.7417,7,7,7,7,6.9697,6.8712,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 6",66,0,NA,66,0,NA,132,7,6.9091,7,7,7,7,7,6.9697,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 7",66,0,NA,66,0,NA,132,7,7,7,7,7,7,7,7,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 8",58,0,NA,68,0,NA,126,7,6.9483,7,7,7,7,7,6.9921,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Survey Area 9",74,0,NA,64,0,NA,138,7,6.9459,7,7,7,7,7,6.971,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 1",68,0,NA,66,0,NA,134,16.6471,14.0721,18.6471,12.9672,10.0747,15.608,14.2149,12.1097,16.0354
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 2",160,0,NA,66,0,NA,226,12.057,10.0601,14.3017,11.5652,8.5598,15.1809,12.0274,10.3423,13.8211
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 3",64,0,NA,66,0,NA,130,16.2969,13.8281,18.425,10.4848,7.9629,13.4363,12.2832,10.5847,14.2727
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 4",66,0,NA,66,0,NA,132,20.3333,18.147,22.2758,18.2553,14.7648,21.3417,18.566,16.2627,20.4422
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 5",66,0,NA,66,0,NA,132,20.1515,17.847,22.2727,21.2549,18.1848,23.4449,20.7549,18.8469,22.3686
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 6",66,0,NA,66,0,NA,132,16.1304,14.3187,18,19.8788,17.1818,22.3076,19.4375,17.4369,21.1721
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 7",66,0,NA,66,0,NA,132,13.9062,12.1203,15.6151,14.3171,10.1438,18.3655,14.25,12.1227,16.584
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 8",58,0,NA,68,0,NA,126,19.8621,18.069,21.3793,16.25,11.9004,20.6193,16.8605,13.9112,19.7451
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Survey Area 9",74,0,NA,64,0,NA,138,17.8378,16.297,19.1764,16.8333,10.9857,21.9672,17.4845,15.7825,19.432
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 1",68,0,NA,66,0,NA,134,0.3676,0,1.4853,0.7273,0.2568,1.4295,0.6493,0.2612,1.1944
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 2",160,0,NA,66,0,NA,226,1.375,0.2484,2.9688,1.6515,0.5288,3.4553,1.4823,0.5035,2.7363
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 3",64,0,NA,66,0,NA,130,0.3125,0,1.1266,0.4697,0.0598,1.3492,0.4,0.0765,0.9619
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 4",66,0,NA,66,0,NA,132,10,4.5379,16.1402,0.0606,0,0.1818,1.3939,0.0303,3.3943
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 5",66,0,NA,66,0,NA,132,0,0,1.5152,0.4545,0,6.3371,0.8712,0,3.7519
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 6",66,0,NA,66,0,NA,132,3.3182,0.7106,7.0318,0,0,0.6061,0.3788,0,1.6595
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 7",66,0,NA,66,0,NA,132,3.0303,0.7538,5.6818,1.4545,0.0909,3.5008,1.5682,0.3326,2.9193
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 8",58,0,NA,68,0,NA,126,2.5,0.2707,6.2931,0,0,2.6471,0.6349,0,2.1429
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Survey Area 9",74,0,NA,64,0,NA,138,0.2297,0,1.4642,0.2031,0,0.768,0.2899,0,0.9431
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Survey Area 1",68,NA,NA,66,NA,NA,134,0.7308,0.4441,1,0.8947,0.6923,1,0.8293,0.62,0.9644
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Survey Area 2",160,NA,NA,66,NA,NA,226,1,0.8854,1,0.8235,0.5652,1,0.9474,0.8249,1
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Survey Area 3",64,NA,NA,66,NA,NA,130,1,1,1,1,0.7778,1,1,0.8,1
@@ -224,33 +224,33 @@
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Survey Area 7",66,0,"Low",66,0,"Low",132,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Survey Area 8",58,2,"Low",68,0,"Low",126,0,0,0.069,0,0,0,0,0,0.0159
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Survey Area 9",74,0,"Low",64,0,"Low",138,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 1",68,26,"Low",66,9,"Low",134,0.4265,0.264,0.5596,0.1212,0.0303,0.2121,0.209,0.1343,0.3209
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 2",160,68,"Low",66,20,"Low",226,0.3625,0.2625,0.4625,0.303,0.1667,0.4242,0.3584,0.2697,0.4558
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 3",64,20,"Low",66,12,"Low",130,0.2188,0.1086,0.3914,0.3182,0.1818,0.4848,0.2923,0.2,0.4081
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 4",66,30,"Low",66,17,"Low",132,0.5152,0.3477,0.6818,0.2727,0.1508,0.425,0.303,0.2121,0.4242
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 5",66,32,"Low",66,1,"Low",132,0.6667,0.5136,0.8182,0.0152,0,0.0606,0.25,0.1436,0.3636
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 6",66,45,"Moderate",66,7,"Low",132,0.6818,0.4992,0.8182,0.1667,0.0606,0.2886,0.25,0.1515,0.3489
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 7",66,36,"Moderate",66,19,"Low",132,0.4545,0.2727,0.6212,0.303,0.1667,0.4697,0.3258,0.2273,0.4242
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 8",58,42,"Moderate",68,7,"Low",126,0.7931,0.6207,0.931,0.0735,0.0147,0.1912,0.119,0.0556,0.1984
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 9",74,43,"Moderate",64,19,"Low",138,0.4324,0.2703,0.5946,0.3906,0.25,0.5469,0.413,0.3112,0.5217
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 1",68,3,"Low",66,46,"Moderate",134,0.0441,0,0.1324,0.7121,0.5758,0.8485,0.5149,0.3955,0.6119
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 2",160,1,"Low",66,32,"Low",226,0.0125,0,0.0438,0.5758,0.4242,0.7121,0.0973,0.0531,0.1507
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 3",64,0,"Low",66,40,"Moderate",130,0,0,0,0.5758,0.4242,0.7273,0.4231,0.3,0.5308
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 4",66,0,"Low",66,46,"Moderate",132,0,0,0,0.697,0.5303,0.8189,0.5909,0.4848,0.7045
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 5",66,0,"Low",66,58,"High",132,0,0,0,0.8485,0.697,0.9394,0.5227,0.4015,0.6439
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 6",66,2,"Low",66,37,"Moderate",132,0.0303,0,0.0909,0.4848,0.3174,0.6364,0.4167,0.2879,0.5155
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 7",66,3,"Low",66,33,"Low",132,0.0152,0,0.0758,0.4848,0.3485,0.6364,0.447,0.3481,0.5455
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 8",58,1,"Low",68,48,"Moderate",126,0,0,0.0517,0.7206,0.5728,0.8382,0.6825,0.5794,0.7778
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 9",74,0,"Low",64,39,"Moderate",138,0,0,0,0.5156,0.3594,0.6719,0.2971,0.1953,0.3989
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 1",68,27,"Low",66,1,"Low",134,0.4118,0.2647,0.6029,0.0303,0,0.1061,0.1567,0.0746,0.2463
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 2",160,85,"Moderate",66,0,"Low",226,0.5625,0.4562,0.6625,0,0,0,0.4823,0.3936,0.5622
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 3",64,33,"Moderate",66,4,"Low",130,0.5938,0.4375,0.75,0.0152,0,0.0606,0.1692,0.0923,0.2615
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 4",66,35,"Moderate",66,2,"Low",132,0.3636,0.2273,0.5152,0.0303,0,0.0909,0.0758,0.0227,0.1364
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 5",66,34,"Moderate",66,7,"Low",132,0.3333,0.2121,0.4864,0.1364,0.0303,0.2727,0.2121,0.1212,0.3182
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 6",66,11,"Low",66,16,"Low",132,0.2273,0.1061,0.3636,0.303,0.1659,0.4545,0.2879,0.1818,0.3939
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 7",66,22,"Low",66,12,"Low",132,0.4545,0.303,0.6364,0.1818,0.0606,0.3333,0.197,0.1061,0.303
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 8",58,15,"Low",68,13,"Low",126,0.1897,0.069,0.3448,0.1912,0.0735,0.3235,0.1984,0.1111,0.2857
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 9",74,26,"Low",64,5,"Low",138,0.5676,0.4041,0.7027,0.0781,0,0.1875,0.2826,0.188,0.3775
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 1",68,26,"Low",66,9,"Low",134,0.4265,0.264,0.5743,0.1061,0.0303,0.2121,0.2164,0.1343,0.2989
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 2",160,68,"Low",66,20,"Low",226,0.3562,0.2562,0.4562,0.303,0.1667,0.425,0.354,0.2785,0.4336
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 3",64,20,"Low",66,12,"Low",130,0.2188,0.0938,0.375,0.3182,0.1818,0.4697,0.2923,0.2,0.3923
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 4",66,30,"Low",66,17,"Low",132,0.5152,0.3333,0.6826,0.2727,0.1364,0.4091,0.303,0.2197,0.4091
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 5",66,32,"Low",66,1,"Low",132,0.6667,0.5152,0.7879,0.0152,0,0.0606,0.25,0.1515,0.3636
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 6",66,45,"Moderate",66,7,"Low",132,0.6818,0.5152,0.8182,0.1667,0.0455,0.3038,0.25,0.1439,0.3489
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 7",66,36,"Moderate",66,19,"Low",132,0.4697,0.303,0.6364,0.303,0.1811,0.4545,0.3258,0.2197,0.4318
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 8",58,42,"Moderate",68,7,"Low",126,0.7931,0.6207,0.931,0.0882,0.0147,0.1912,0.127,0.0556,0.1984
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Survey Area 9",74,43,"Moderate",64,19,"Low",138,0.4324,0.2703,0.5946,0.4062,0.2344,0.5477,0.4058,0.3043,0.5145
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 1",68,3,"Low",66,46,"Moderate",134,0.0441,0,0.1324,0.7121,0.5606,0.8485,0.5075,0.3951,0.6269
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 2",160,1,"Low",66,32,"Low",226,0.0125,0,0.05,0.5758,0.4242,0.7273,0.0929,0.0487,0.146
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 3",64,0,"Low",66,40,"Moderate",130,0,0,0,0.5758,0.4386,0.7273,0.4231,0.3231,0.5385
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 4",66,0,"Low",66,46,"Moderate",132,0,0,0,0.697,0.5455,0.8333,0.5909,0.4773,0.6973
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 5",66,0,"Low",66,58,"High",132,0,0,0,0.8333,0.6818,0.9545,0.5227,0.4091,0.6439
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 6",66,2,"Low",66,37,"Moderate",132,0.0303,0,0.0765,0.4848,0.303,0.6515,0.4167,0.2947,0.5303
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 7",66,3,"Low",66,33,"Low",132,0,0,0.0606,0.5,0.3636,0.6364,0.447,0.3485,0.5458
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 8",58,1,"Low",68,48,"Moderate",126,0,0,0.069,0.7206,0.5735,0.8382,0.6825,0.5714,0.7778
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Survey Area 9",74,0,"Low",64,39,"Moderate",138,0,0,0,0.5156,0.3586,0.6875,0.2971,0.1957,0.3986
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 1",68,0,"Low",66,0,"Low",134,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 2",160,0,"Low",66,0,"Low",226,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 3",64,0,"Low",66,1,"Low",130,0,0,0,0,0,0.0303,0,0,0.0154
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 4",66,0,"Low",66,0,"Low",132,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 5",66,0,"Low",66,0,"Low",132,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 6",66,4,"Low",66,0,"Low",132,0.0303,0,0.1061,0,0,0,0,0,0.0303
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 7",66,2,"Low",66,0,"Low",132,0.0303,0,0.1212,0,0,0,0,0,0.0152
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 8",58,0,"Low",68,0,"Low",126,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Survey Area 9",74,0,"Low",64,0,"Low",138,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 1",68,0,"Low",66,0,"Low",134,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 2",160,0,"Low",66,0,"Low",226,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 3",64,0,"Low",66,0,"Low",130,0,0,0,0,0,0,0,0,0
@@ -260,15 +260,15 @@
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 7",66,0,"Low",66,0,"Low",132,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 8",58,0,"Low",68,0,"Low",126,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Survey Area 9",74,0,"Low",64,0,"Low",138,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 1",68,12,"Low",66,10,"Low",134,0.1029,0.0294,0.2206,0.1212,0.0303,0.2424,0.1194,0.0597,0.2015
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 2",160,6,"Low",66,14,"Low",226,0.0562,0.0188,0.1188,0.1212,0.0303,0.2424,0.0664,0.0265,0.115
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 3",64,11,"Low",66,10,"Low",130,0.1875,0.0617,0.3125,0.0758,0,0.1818,0.1077,0.0462,0.1846
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 4",66,1,"Low",66,1,"Low",132,0.1212,0.0447,0.228,0,0,0.0303,0.0227,0,0.0606
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 1",68,12,"Low",66,10,"Low",134,0.1029,0.0294,0.2059,0.1212,0.0303,0.2576,0.1269,0.0593,0.2093
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 2",160,6,"Low",66,14,"Low",226,0.0562,0.0184,0.1125,0.1364,0.0303,0.2576,0.0664,0.031,0.1062
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 3",64,11,"Low",66,10,"Low",130,0.1719,0.0625,0.3125,0.0758,0,0.197,0.1,0.0381,0.1846
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 4",66,1,"Low",66,1,"Low",132,0.1212,0.0455,0.2273,0,0,0.0303,0.0227,0,0.0606
 "Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 5",66,0,"Low",66,0,"Low",132,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 6",66,8,"Low",66,6,"Low",132,0.0606,0,0.1515,0.0455,0,0.1364,0.0455,0.0076,0.1064
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 7",66,5,"Low",66,2,"Low",132,0.0455,0,0.1364,0.0152,0,0.0758,0.0227,0,0.0682
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 6",66,8,"Low",66,6,"Low",132,0.0606,0,0.1667,0.0455,0,0.1212,0.0455,0.0072,0.1136
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 7",66,5,"Low",66,2,"Low",132,0.0455,0,0.1364,0.0152,0,0.0909,0.0227,0,0.0606
 "Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 8",58,0,"Low",68,0,"Low",126,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 9",74,5,"Low",64,1,"Low",138,0,0,0.0811,0,0,0.0469,0.0072,0,0.0435
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Survey Area 9",74,5,"Low",64,1,"Low",138,0.0135,0,0.0811,0,0,0.0469,0.0145,0,0.0435
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Survey Area 1",68,1,"Low",66,8,"Low",134,0,0,0.0441,0.1212,0.0303,0.2273,0.0896,0.0373,0.1567
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Survey Area 2",160,2,"Low",66,10,"Low",226,0,0,0.025,0.0909,0.0152,0.197,0.0177,0,0.0442
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Survey Area 3",64,2,"Low",66,6,"Low",130,0,0,0.0938,0.0455,0,0.1212,0.0308,0,0.085
@@ -728,15 +728,15 @@
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Survey Area 7",NA,NA,NA,NA,NA,NA,NA,4.303,3.9091,4.7424,4.9848,4.3788,5.697,4.9015,4.4765,5.4019
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Survey Area 8",NA,NA,NA,NA,NA,NA,NA,3.931,3.4655,4.4483,4.9118,4.4559,5.3978,4.8492,4.5631,5.2226
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Survey Area 9",NA,NA,NA,NA,NA,NA,NA,3.3919,3.0669,3.7709,4.8281,4.2945,5.4688,4.2174,3.913,4.588
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 1",64,0,NA,64,0,NA,128,15.4412,12.0103,19.1096,2.4697,0.8174,4.8205,6.6119,4.4664,9.2112
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 2",64,0,NA,64,0,NA,128,19.4125,16.3188,22.5613,4.8485,2.8439,7.3364,17.0973,14.9367,20.0624
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 3",64,0,NA,64,0,NA,128,19.7812,15.8984,24.4406,7.8636,4.2386,12.3485,11.1769,7.7865,14.9038
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 4",64,0,NA,64,0,NA,128,20.1667,15.7864,25.5614,5.1667,2.2265,8.6977,7.4697,5.0663,10.4621
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 5",64,0,NA,64,0,NA,128,29.7273,24.4053,36.7841,1.3939,0,6.2545,11.7955,8.0773,16.6367
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 6",64,0,NA,64,0,NA,128,9.3636,4.5015,14.8576,2.3788,0.7871,4.5045,3.4091,1.733,5.5758
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 7",64,0,NA,64,0,NA,128,7.4091,3.7265,12.7598,6.8788,4.253,9.7023,6.8864,4.9617,9.3295
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 8",64,0,NA,64,0,NA,128,9.6897,5.8957,13.6241,0.9412,0.1176,3.4721,1.5159,0.4829,3.2726
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 9",64,0,NA,64,0,NA,128,4.0541,1.6189,7.5419,4.5938,2.7961,6.875,4.4638,2.7866,6.3493
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 1",68,0,NA,66,0,NA,134,15.4412,12.0103,19.1096,2.4697,0.8174,4.8205,6.6119,4.4664,9.2112
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 2",160,0,NA,66,0,NA,226,19.4125,16.3188,22.5613,4.8485,2.8439,7.3364,17.0973,14.9367,20.0624
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 3",64,0,NA,66,0,NA,130,19.7812,15.8984,24.4406,7.8636,4.2386,12.3485,11.1769,7.7865,14.9038
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 4",66,0,NA,66,0,NA,132,20.1667,15.7864,25.5614,5.1667,2.2265,8.6977,7.4697,5.0663,10.4621
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 5",66,0,NA,66,0,NA,132,29.7273,24.4053,36.7841,1.3939,0,6.2545,11.7955,8.0773,16.6367
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 6",66,0,NA,66,0,NA,132,9.3636,4.5015,14.8576,2.3788,0.7871,4.5045,3.4091,1.733,5.5758
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 7",66,0,NA,66,0,NA,132,7.4091,3.7265,12.7598,6.8788,4.253,9.7023,6.8864,4.9617,9.3295
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 8",58,0,NA,68,0,NA,126,9.6897,5.8957,13.6241,0.9412,0.1176,3.4721,1.5159,0.4829,3.2726
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Survey Area 9",74,0,NA,64,0,NA,138,4.0541,1.6189,7.5419,4.5938,2.7961,6.875,4.4638,2.7866,6.3493
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Survey Area 1",NA,NA,NA,NA,NA,NA,NA,46.6912,43.2015,50.764,68.3182,64.4197,72.1992,61.6716,58.1086,64.9343
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Survey Area 2",NA,NA,NA,NA,NA,NA,NA,42.5125,39.8984,45.2944,63.4545,56.8568,69.1455,45.5796,42.8312,48.2352
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Survey Area 3",NA,NA,NA,NA,NA,NA,NA,47.5625,43.568,51.1281,64.7121,59.997,69.053,59.7,56.1462,62.9273
@@ -819,21 +819,21 @@
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","North City Corporation",346,1,"Low",258,1,"Low",604,0.013,0.0057,0.026,0,0,0.0039,0.0083,0.0025,0.0157
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0.0357,0,0,0,0,0,0.0312
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","South City Corporation",300,5,"Low",330,1,"Low",630,0.005,0,0.0167,0.0015,0,0.0061,0.0024,0,0.0056
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","North City Corporation",346,129,"Low",258,55,"Low",604,0.3815,0.3337,0.4293,0.2674,0.2189,0.3141,0.3336,0.2988,0.3684
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Outside",NA,NA,NA,NA,NA,NA,NA,0.631,0.4762,0.7619,0,0,0.1667,0.375,0.25,0.5104
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","South City Corporation",300,188,"Moderate",330,54,"Low",630,0.565,0.5099,0.6118,0.1606,0.1257,0.194,0.2286,0.1968,0.2604
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","North City Corporation",346,4,"Low",258,161,"Moderate",604,0.0159,0.0043,0.0303,0.657,0.6006,0.7113,0.2798,0.2442,0.3121
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0,0.6667,0.3333,0.9167,0.2708,0.1667,0.3854
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","South City Corporation",300,6,"Low",330,215,"Moderate",630,0.0067,0,0.015,0.6424,0.5983,0.6909,0.5357,0.4984,0.5731
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","North City Corporation",346,183,"Moderate",258,7,"Low",604,0.5347,0.484,0.5825,0.0213,0.0078,0.0388,0.322,0.2856,0.3626
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Outside",NA,NA,NA,NA,NA,NA,NA,0.381,0.2381,0.5357,0.3333,0,0.5833,0.3438,0.2188,0.4484
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","South City Corporation",300,88,"Low",330,52,"Low",630,0.4133,0.3666,0.4669,0.1864,0.1424,0.2304,0.2238,0.1905,0.2563
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","North City Corporation",346,129,"Low",258,55,"Low",604,0.3772,0.3322,0.4263,0.2694,0.2229,0.3159,0.332,0.2971,0.37
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Outside",NA,NA,NA,NA,NA,NA,NA,0.631,0.4875,0.7619,0,0,0.1667,0.3854,0.2703,0.5312
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","South City Corporation",300,188,"Moderate",330,54,"Low",630,0.5633,0.5082,0.6184,0.1606,0.1257,0.1955,0.2294,0.1952,0.2587
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","North City Corporation",346,4,"Low",258,161,"Moderate",604,0.0159,0.0058,0.0289,0.655,0.6027,0.7114,0.2773,0.2458,0.3154
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0,0.6667,0.3333,0.9167,0.2604,0.1458,0.3854
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","South City Corporation",300,6,"Low",330,215,"Moderate",630,0.005,0,0.0151,0.6424,0.5955,0.6894,0.5365,0.5,0.5714
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","North City Corporation",346,183,"Moderate",258,7,"Low",604,0,0,0,0,0,0.0039,0,0,0.0017
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","South City Corporation",300,88,"Low",330,52,"Low",630,0.0067,0,0.0183,0,0,0,8e-04,0,0.0048
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","North City Corporation",346,0,"Low",258,0,"Low",604,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","South City Corporation",300,0,"Low",330,0,"Low",630,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","North City Corporation",346,30,"Low",258,35,"Low",604,0.0708,0.0447,0.0968,0.0543,0.031,0.0834,0.0637,0.0455,0.0853
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","North City Corporation",346,30,"Low",258,35,"Low",604,0.0708,0.0476,0.0997,0.0562,0.031,0.0834,0.0637,0.0479,0.0877
 "Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Outside",NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","South City Corporation",300,18,"Low",330,9,"Low",630,0.0183,0.005,0.0334,0.0121,0.003,0.0242,0.0127,0.0056,0.0215
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","South City Corporation",300,18,"Low",330,9,"Low",630,0.0183,0.005,0.0333,0.0106,0.003,0.0227,0.0127,0.0056,0.0215
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","North City Corporation",346,8,"Low",258,23,"Low",604,0.0217,0.0087,0.0376,0.0426,0.0233,0.0698,0.0306,0.019,0.0447
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Outside",NA,NA,NA,NA,NA,NA,NA,0.0119,0,0.0476,0,0,0.1667,0.0104,0,0.0521
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","South City Corporation",300,26,"Low",330,7,"Low",630,0.0283,0.01,0.0484,0.0136,0.003,0.0273,0.0159,0.0071,0.0254
@@ -935,31 +935,31 @@
 "Bangladesh","BGD","Mar",2017,"Household acceptble sanitation score","acceptScore","Wealth Quintile 3",NA,NA,NA,NA,NA,NA,NA,2.5,2.3488,2.6546,3.5918,3.3848,3.7753,3.1595,3.0194,3.2836
 "Bangladesh","BGD","Mar",2017,"Household acceptble sanitation score","acceptScore","Wealth Quintile 4",NA,NA,NA,NA,NA,NA,NA,2.5439,2.2542,2.8277,3.9735,3.8756,4.0754,3.8431,3.7372,3.9458
 "Bangladesh","BGD","Mar",2017,"Household acceptble sanitation score","acceptScore","Wealth Quintile 5",NA,NA,NA,NA,NA,NA,NA,1.8667,1.4,2.3343,4.1681,4.0969,4.2511,4.0595,3.9392,4.164
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 1",231,0,NA,231,0,NA,462,494.4796,198.68,873.8501,0,0,0,436.1892,156.8867,802.1354
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 2",231,0,NA,231,0,NA,462,460.3153,250.4801,787.5646,375,0,1184.2308,432.02,219.8251,711.7757
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 3",231,0,NA,231,0,NA,462,331.625,194.005,526.6583,950.303,318.7771,2134.4264,732.7901,385.675,1246.7286
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 4",231,0,NA,231,0,NA,462,928.5714,16.935,2827.871,914.2857,344.8699,2078.064,976.0163,355.3746,1896.9118
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 5",231,0,NA,231,0,NA,462,1333.3333,0,5333.3333,669.3333,228.1552,1282.9487,714.5492,367.9739,1239.6887
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 1",231,0,NA,231,0,NA,462,492.3077,282.1266,751.9964,333.3333,0,750,482.5,274.9167,661.768
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 2",231,0,NA,231,0,NA,462,200,102.5,1428.5714,125,0,400,203.6842,100,1097.3693
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 3",231,0,NA,231,0,NA,462,57.1429,0,2660.4167,1300,250,4000,714.2857,50,2527.8409
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 4",231,0,NA,231,0,NA,462,1000,0,2000,1241.6667,613.5227,1770.5,1216.6667,732.5,1744.7222
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 5",231,0,NA,231,0,NA,462,100,100,100,2342.8571,648.5714,4928.5714,1605.5556,499.4444,3329.6429
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 1",231,0,NA,231,0,NA,462,6.869,6.7807,6.9278,7,6.9444,7,6.8835,6.81,6.9432
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 2",231,0,NA,231,0,NA,462,6.855,6.7524,6.9448,7,7,7,6.8875,6.7947,6.963
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 3",231,0,NA,231,0,NA,462,6.9639,6.8484,7,6.978,6.9285,7,6.9692,6.9053,6.9964
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 4",231,0,NA,231,0,NA,462,7,6.9655,7,7,6.9781,7,7,6.9801,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 5",231,0,NA,231,0,NA,462,7,7,7,7,6.991,7,7,6.9916,7
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 1",231,0,NA,231,0,NA,462,15.2773,13.772,16.5202,12.8333,8.3982,17.4618,15.0321,13.7489,16.2317
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 2",231,0,NA,231,0,NA,462,12.3178,10.9663,13.6717,17.6667,13.9525,21.1461,13.1161,11.751,14.6232
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 3",231,0,NA,231,0,NA,462,18.6626,17.191,19.8568,15.6087,12.7952,17.9853,17.1133,15.82,18.2874
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 4",231,0,NA,231,0,NA,462,15.569,13.4728,18.0368,16.9709,15.4562,18.5058,16.7687,15.327,18.1356
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 5",231,0,NA,231,0,NA,462,6.4667,4.1333,10.0692,16.9545,15.1664,18.9442,16.1324,14.0625,17.8003
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 1",231,0,NA,231,0,NA,462,2.2294,1,3.5727,1.4444,0.3636,3.3343,2.0736,0.9564,3.3762
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 2",231,0,NA,231,0,NA,462,0.9569,0.3429,1.6827,5.7692,1.5417,13.252,2.2033,1.107,3.8584
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 3",231,0,NA,231,0,NA,462,2.0186,0.8619,3.6353,0.6111,0.1649,1.294,1.1953,0.5116,2.0504
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 4",231,0,NA,231,0,NA,462,1.0909,0,3.6742,0.5333,0.1337,1.3567,0.6,0.1506,1.2319
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 5",231,0,NA,231,0,NA,462,0,0,0.6667,0.0711,0.0088,0.1863,0.0723,0.0118,0.1697
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 1",231,0,NA,37,0,NA,268,494.4796,198.68,873.8501,0,0,0,436.1892,156.8867,802.1354
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 2",212,0,NA,39,0,NA,251,460.3153,250.4801,787.5646,375,0,1184.2308,432.02,219.8251,711.7757
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 3",167,0,NA,94,0,NA,261,331.625,194.005,526.6583,950.303,318.7771,2134.4264,732.7901,385.675,1246.7286
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 4",61,0,NA,193,0,NA,254,928.5714,16.935,2827.871,914.2857,344.8699,2078.064,976.0163,355.3746,1896.9118
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Wealth Quintile 5",17,0,NA,231,0,NA,248,1333.3333,0,5333.3333,669.3333,228.1552,1282.9487,714.5492,367.9739,1239.6887
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 1",231,0,NA,37,0,NA,268,492.3077,282.1266,751.9964,333.3333,0,750,482.5,274.9167,661.768
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 2",212,0,NA,39,0,NA,251,200,102.5,1428.5714,125,0,400,203.6842,100,1097.3693
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 3",167,0,NA,94,0,NA,261,57.1429,0,2660.4167,1300,250,4000,714.2857,50,2527.8409
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 4",61,0,NA,193,0,NA,254,1000,0,2000,1241.6667,613.5227,1770.5,1216.6667,732.5,1744.7222
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Wealth Quintile 5",17,0,NA,231,0,NA,248,100,100,100,2342.8571,648.5714,4928.5714,1605.5556,499.4444,3329.6429
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 1",231,0,NA,37,0,NA,268,6.869,6.7807,6.9278,7,6.9444,7,6.8835,6.81,6.9432
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 2",212,0,NA,39,0,NA,251,6.855,6.7524,6.9448,7,7,7,6.8875,6.7947,6.963
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 3",167,0,NA,94,0,NA,261,6.9639,6.8484,7,6.978,6.9285,7,6.9692,6.9053,6.9964
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 4",61,0,NA,193,0,NA,254,7,6.9655,7,7,6.9781,7,7,6.9801,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Wealth Quintile 5",17,0,NA,231,0,NA,248,7,7,7,7,6.991,7,7,6.9916,7
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 1",231,0,NA,37,0,NA,268,15.2773,13.772,16.5202,12.8333,8.3982,17.4618,15.0321,13.7489,16.2317
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 2",212,0,NA,39,0,NA,251,12.3178,10.9663,13.6717,17.6667,13.9525,21.1461,13.1161,11.751,14.6232
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 3",167,0,NA,94,0,NA,261,18.6626,17.191,19.8568,15.6087,12.7952,17.9853,17.1133,15.82,18.2874
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 4",61,0,NA,193,0,NA,254,15.569,13.4728,18.0368,16.9709,15.4562,18.5058,16.7687,15.327,18.1356
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Wealth Quintile 5",17,0,NA,231,0,NA,248,6.4667,4.1333,10.0692,16.9545,15.1664,18.9442,16.1324,14.0625,17.8003
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 1",231,0,NA,37,0,NA,268,2.2294,1,3.5727,1.4444,0.3636,3.3343,2.0736,0.9564,3.3762
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 2",212,0,NA,39,0,NA,251,0.9569,0.3429,1.6827,5.7692,1.5417,13.252,2.2033,1.107,3.8584
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 3",167,0,NA,94,0,NA,261,2.0186,0.8619,3.6353,0.6111,0.1649,1.294,1.1953,0.5116,2.0504
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 4",61,0,NA,193,0,NA,254,1.0909,0,3.6742,0.5333,0.1337,1.3567,0.6,0.1506,1.2319
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Wealth Quintile 5",17,0,NA,231,0,NA,248,0,0,0.6667,0.0711,0.0088,0.1863,0.0723,0.0118,0.1697
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Wealth Quintile 1",231,NA,NA,37,NA,NA,268,0.9692,0.8979,1,0.6,0.2222,1,0.9219,0.8227,0.9848
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Wealth Quintile 2",212,NA,NA,39,NA,NA,251,0.9667,0.8696,1,0.9167,0.6667,1,0.95,0.8708,1
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Wealth Quintile 3",167,NA,NA,94,NA,NA,261,1,0.9309,1,1,0.6345,1,0.9545,0.862,1
@@ -1060,31 +1060,31 @@
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Wealth Quintile 3",167,2,"Low",94,0,"Low",261,0,0,0.0123,0,0,0,0,0,0.0079
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Wealth Quintile 4",61,3,"Low",193,0,"Low",254,0.0169,0,0.0759,0,0,0,0,0,0.0085
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Wealth Quintile 5",17,0,"Low",231,0,"Low",248,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 1",231,105,"Low",37,16,"Low",268,0.3802,0.3203,0.4569,0.6176,0.4118,0.8065,0.4151,0.3525,0.4887
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 2",212,100,"Low",39,22,"Moderate",251,0.3476,0.2765,0.4186,0.5789,0.3947,0.7186,0.4,0.3346,0.4575
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 3",167,87,"Moderate",94,32,"Low",261,0.557,0.4755,0.6391,0.375,0.2556,0.4732,0.4382,0.3743,0.5135
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 4",61,37,"Moderate",193,30,"Low",254,0.8136,0.6934,0.9093,0.1596,0.1051,0.2193,0.2204,0.1619,0.2727
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 5",17,13,"Moderate",231,11,"Low",248,0.4667,0.2,0.7342,0.0611,0.0309,0.1017,0.0805,0.0494,0.1193
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 1",231,4,"Low",37,3,"Low",268,0.0268,0.0044,0.0529,0.0323,0,0.129,0.0294,0.0111,0.0528
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 2",212,1,"Low",39,7,"Low",251,0,0,0.0049,0.2105,0.1,0.3421,0.0498,0.0245,0.0799
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 3",167,2,"Low",94,48,"Moderate",261,0.006,0,0.0189,0.4796,0.3828,0.5958,0.2943,0.2323,0.3528
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 4",61,3,"Low",193,129,"Moderate",254,0.0172,0,0.0679,0.6335,0.5601,0.7059,0.5774,0.5181,0.6426
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 5",17,0,"Low",231,192,"High",248,0,0,0,0.821,0.7608,0.8756,0.7801,0.7172,0.8347
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 1",231,104,"Low",37,3,"Low",268,0.5217,0.4453,0.6,0.0882,0,0.1935,0.4667,0.4023,0.5365
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 2",212,95,"Low",39,4,"Low",251,0.5953,0.5144,0.6731,0.1053,0.0256,0.2105,0.4821,0.417,0.5538
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 3",167,68,"Low",94,6,"Low",261,0.4094,0.3313,0.4846,0.1183,0.0625,0.1915,0.2375,0.1807,0.3058
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 4",61,17,"Low",193,26,"Low",254,0.1148,0.0351,0.2064,0.1935,0.1344,0.262,0.1833,0.1369,0.2358
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 5",17,4,"Low",231,21,"Low",248,0.5,0.2658,0.7525,0.1106,0.0617,0.156,0.1271,0.0822,0.1728
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 1",231,105,"Low",37,16,"Low",268,0.3799,0.3073,0.4604,0.625,0.4571,0.7812,0.4093,0.3511,0.4812
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 2",212,100,"Low",39,22,"Moderate",251,0.3462,0.2718,0.4195,0.5789,0.4103,0.7372,0.404,0.3333,0.4695
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 3",167,87,"Moderate",94,32,"Low",261,0.5529,0.4758,0.6403,0.3696,0.2746,0.4787,0.4453,0.3744,0.5057
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 4",61,37,"Moderate",193,30,"Low",254,0.8103,0.6883,0.9286,0.1622,0.1064,0.2186,0.2222,0.1687,0.2796
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Wealth Quintile 5",17,13,"Moderate",231,11,"Low",248,0.4667,0.2,0.7333,0.0611,0.0295,0.1021,0.0827,0.0496,0.1219
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 1",231,4,"Low",37,3,"Low",268,0.0258,0.008,0.0598,0.0312,0,0.125,0.0301,0.0113,0.0573
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 2",212,1,"Low",39,7,"Low",251,0,0,0.0049,0.2051,0.1026,0.3429,0.052,0.0277,0.076
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 3",167,2,"Low",94,48,"Moderate",261,0.006,0,0.0193,0.4848,0.3734,0.5916,0.293,0.2394,0.3583
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 4",61,3,"Low",193,129,"Moderate",254,0.0169,0,0.0559,0.6354,0.5634,0.7,0.5777,0.5063,0.6342
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Wealth Quintile 5",17,0,"Low",231,192,"High",248,0,0,0,0.8186,0.7623,0.8719,0.7823,0.7166,0.8375
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 1",231,4,"Low",37,1,"Low",268,0,0,0.0165,0,0,0.0312,0,0,0.0151
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 2",212,0,"Low",39,0,"Low",251,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 3",167,2,"Low",94,0,"Low",261,0,0,0.0185,0,0,0,0,0,0.0082
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 4",61,0,"Low",193,0,"Low",254,0,0,0,0,0,0,0,0,0
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Wealth Quintile 5",17,0,"Low",231,0,"Low",248,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Wealth Quintile 1",231,0,"Low",37,0,"Low",268,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Wealth Quintile 2",212,0,"Low",39,0,"Low",251,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Wealth Quintile 3",167,0,"Low",94,0,"Low",261,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Wealth Quintile 4",61,0,"Low",193,0,"Low",254,0,0,0,0,0,0,0,0,0
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Wealth Quintile 5",17,0,"Low",231,0,"Low",248,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 1",231,18,"Low",37,15,"Low",268,0.0676,0.0365,0.107,0.2424,0.087,0.4003,0.0906,0.0528,0.1322
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 2",212,16,"Low",39,6,"Low",251,0.0588,0.0283,0.0976,0.1,0.0244,0.1842,0.0653,0.0356,0.1031
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 3",167,10,"Low",94,8,"Low",261,0.0307,0.0062,0.064,0.0211,0,0.0667,0.0269,0.0078,0.0504
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 4",61,4,"Low",193,8,"Low",254,0.0526,0,0.1519,0.0106,0,0.0323,0.0162,0,0.0398
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 5",17,0,"Low",231,7,"Low",248,0,0,0,0.0087,0,0.0278,0.0083,0,0.0282
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 1",231,18,"Low",37,15,"Low",268,0.0675,0.0339,0.1044,0.2353,0.0909,0.4167,0.0896,0.0532,0.1326
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 2",212,16,"Low",39,6,"Low",251,0.0585,0.028,0.0965,0.1,0.0244,0.2003,0.0661,0.0361,0.1012
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 3",167,10,"Low",94,8,"Low",261,0.0307,0.0061,0.0688,0.0213,0,0.0632,0.0268,0.0078,0.0522
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 4",61,4,"Low",193,8,"Low",254,0.0536,0,0.1431,0.0107,0,0.0323,0.0161,0.0039,0.036
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Wealth Quintile 5",17,0,"Low",231,7,"Low",248,0,0,0,0.0087,0,0.0273,0.0084,0,0.0282
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Wealth Quintile 1",231,10,"Low",37,2,"Low",268,0.0086,0,0.0264,0.0606,0,0.1765,0.0156,0,0.0422
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Wealth Quintile 2",212,11,"Low",39,6,"Low",251,0.029,0.0094,0.0566,0.0769,0,0.1579,0.0415,0.0164,0.0726
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Wealth Quintile 3",167,9,"Low",94,6,"Low",261,0.0422,0.0124,0.0784,0.0109,0,0.0413,0.024,0.0076,0.0476
@@ -1335,11 +1335,11 @@
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Wealth Quintile 3",NA,NA,NA,NA,NA,NA,NA,3.8889,3.6298,4.1965,5.2947,4.7607,5.8355,4.7402,4.4278,5.0862
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Wealth Quintile 4",NA,NA,NA,NA,NA,NA,NA,3.5806,3.1408,4.069,5.0856,4.8048,5.4199,4.949,4.6931,5.2504
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Wealth Quintile 5",NA,NA,NA,NA,NA,NA,NA,4.75,4.25,5.3333,4.3289,4.1613,4.4912,4.3415,4.1868,4.5232
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 1",231,0,NA,231,0,NA,462,17.0042,14.8621,19.0418,17.4571,13.1689,22.0703,17.2794,15.4848,19.455
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 2",231,0,NA,231,0,NA,462,20.734,17.5191,24.279,16.1842,11.4895,21.9076,19.6235,17.0373,22.285
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 3",231,0,NA,231,0,NA,462,17.2182,15.1578,19.2835,6.3077,4.4065,8.2306,10.5569,9.0316,12.2223
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 4",231,0,NA,231,0,NA,462,16.1786,13.4681,19.4926,2.6823,1.5777,3.8724,3.9375,2.7676,5.0583
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 5",231,0,NA,231,0,NA,462,27.6,22.2442,31.8667,0.6216,0.3436,1.0007,1.9873,1.2437,2.923
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 1",231,0,NA,37,0,NA,268,17.0042,14.8621,19.0418,17.4571,13.1689,22.0703,17.2794,15.4848,19.455
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 2",212,0,NA,39,0,NA,251,20.734,17.5191,24.279,16.1842,11.4895,21.9076,19.6235,17.0373,22.285
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 3",167,0,NA,94,0,NA,261,17.2182,15.1578,19.2835,6.3077,4.4065,8.2306,10.5569,9.0316,12.2223
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 4",61,0,NA,193,0,NA,254,16.1786,13.4681,19.4926,2.6823,1.5777,3.8724,3.9375,2.7676,5.0583
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Wealth Quintile 5",17,0,NA,231,0,NA,248,27.6,22.2442,31.8667,0.6216,0.3436,1.0007,1.9873,1.2437,2.923
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Wealth Quintile 1",NA,NA,NA,NA,NA,NA,NA,31.2636,30.3462,32.2243,31.1351,28.675,33.2863,31.2481,30.3802,32.1029
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Wealth Quintile 2",NA,NA,NA,NA,NA,NA,NA,45.7143,45.2225,46.1277,46.5385,45.6154,47.5274,45.9051,45.5058,46.3921
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Wealth Quintile 3",NA,NA,NA,NA,NA,NA,NA,55.8817,55.4241,56.3111,56.8043,56.1316,57.426,56.4302,56.0533,56.7985
@@ -1350,12 +1350,12 @@
 "Bangladesh","BGD","Mar",2017,"Mean wealth index","pQuintile","Wealth Quintile 3",NA,NA,NA,NA,NA,NA,NA,3,3,3,3,3,3,3,3,3
 "Bangladesh","BGD","Mar",2017,"Mean wealth index","pQuintile","Wealth Quintile 4",NA,NA,NA,NA,NA,NA,NA,4,4,4,4,4,4,4,4,4
 "Bangladesh","BGD","Mar",2017,"Mean wealth index","pQuintile","Wealth Quintile 5",NA,NA,NA,NA,NA,NA,NA,5,5,5,5,5,5,5,5,5
-"Bangladesh","BGD","Mar",2017,"Household acceptable sanitation score","acceptScore","Overall",594,0,NA,594,0,NA,1188,2.3241,2.2352,2.4158,3.8923,3.8012,3.9697,3.3159,3.2293,3.4089
-"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Overall",594,0,NA,594,0,NA,1188,556.3881,341.7267,823.4771,757.7609,419.0791,1310.0556,688.6817,475.4952,988.7529
-"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Overall",594,0,NA,594,0,NA,1188,413.6364,233.5185,794.75,1474,747.4327,2468.8095,925.8228,583.3466,1386.2911
-"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Overall",594,0,NA,594,0,NA,1188,6.8927,6.8195,6.9399,6.9949,6.9832,7,6.9577,6.9252,6.9812
-"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Overall",594,0,NA,594,0,NA,1188,14.6237,13.6257,15.4652,16.6334,15.3477,17.7593,15.6102,14.8103,16.3276
-"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Overall",594,0,NA,594,0,NA,1188,1.6512,0.9867,2.5078,0.6532,0.2556,1.4244,1.0523,0.6653,1.5218
+"Bangladesh","BGD","Mar",2017,"Household acceptable sanitation score","acceptScore","Overall",688,0,NA,594,0,NA,1282,2.3241,2.2352,2.4158,3.8923,3.8012,3.9697,3.3159,3.2293,3.4089
+"Bangladesh","BGD","Mar",2017,"Household mean amount of initial investment in sanitation facility","san17","Overall",688,0,NA,594,0,NA,1282,556.3881,341.7267,823.4771,757.7609,419.0791,1310.0556,688.6817,475.4952,988.7529
+"Bangladesh","BGD","Mar",2017,"Household mean cost of sanitation facility emptying","san34","Overall",688,0,NA,594,0,NA,1282,413.6364,233.5185,794.75,1474,747.4327,2468.8095,925.8228,583.3466,1386.2911
+"Bangladesh","BGD","Mar",2017,"Household mean number of days per week drinking water is available from source","water5","Overall",688,0,NA,594,0,NA,1282,6.8927,6.8195,6.9399,6.9949,6.9832,7,6.9577,6.9252,6.9812
+"Bangladesh","BGD","Mar",2017,"Household mean number of hours per day drinking water is available from source","water4","Overall",688,0,NA,594,0,NA,1282,14.6237,13.6257,15.4652,16.6334,15.3477,17.7593,15.6102,14.8103,16.3276
+"Bangladesh","BGD","Mar",2017,"Household mean number of minutes to collect water from source","water7","Overall",688,0,NA,594,0,NA,1282,1.6512,0.9867,2.5078,0.6532,0.2556,1.4244,1.0523,0.6653,1.5218
 "Bangladesh","BGD","Mar",2017,"Household satisfied with pit emptying service","san37","Overall",688,NA,NA,594,NA,NA,1282,0.9727,0.9237,1,0.9149,0.8453,0.9699,0.9342,0.8928,0.967
 "Bangladesh","BGD","Mar",2017,"Households in which every member is able to use and actually use sanitation facility","accessSan","Overall",688,NA,NA,594,538,"High",1282,0.8663,0.8342,0.8954,0.9259,0.9024,0.9512,0.9041,0.8845,0.9236
 "Bangladesh","BGD","Mar",2017,"Households practicing sanitary disposal of child's faeces","san12","Overall",688,168,"Low",594,147,"Low",1282,0.2195,0.1802,0.2559,0.2104,0.1734,0.2444,0.2137,0.188,0.2442
@@ -1376,11 +1376,11 @@
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that is located on premises and is available when needed","jmpWater5","Overall",688,NA,NA,594,NA,NA,1282,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes 30 minutes or less to collect from","jmpWater4","Overall",688,646,"High",594,561,"High",1282,0.9651,0.9462,0.9826,0.9764,0.9561,0.9899,0.9727,0.9602,0.9829
 "Bangladesh","BGD","Mar",2017,"Households using an improved source of drinking water that takes more than 30 minutes to collect from","jmpWater3","Overall",688,7,"Low",594,2,"Low",1282,0.0116,0.0044,0.0233,0,0,0.0051,0.0047,8e-04,0.0117
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Overall",688,342,"Low",594,111,"Low",1282,0.4273,0.3778,0.4826,0.1902,0.1515,0.2324,0.2785,0.2418,0.3114
-"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Overall",688,10,"Low",594,379,"Moderate",1282,0.0131,0.0044,0.0247,0.6481,0.5909,0.697,0.4142,0.3798,0.4493
-"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Overall",688,288,"Low",594,60,"Low",1282,0.5029,0.4476,0.5509,0.138,0.101,0.1751,0.2715,0.2363,0.3004
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities shared between two or more households","jmpSan3","Overall",688,342,"Low",594,111,"Low",1282,0.4302,0.3793,0.4858,0.1902,0.1531,0.229,0.2777,0.2433,0.3152
+"Bangladesh","BGD","Mar",2017,"Households using improved facilities which are not shared with other households","jmpSan4","Overall",688,10,"Low",594,379,"Moderate",1282,0.0131,0.0029,0.0247,0.6465,0.5959,0.7003,0.4158,0.3783,0.4563
+"Bangladesh","BGD","Mar",2017,"Households using open defecation","jmpSan1","Overall",688,6,"Low",594,1,"Low",1282,0,0,0.0059,0,0,0.0017,0,0,0.0031
 "Bangladesh","BGD","Mar",2017,"Households using surface water as source of drinking water","jmpWater1","Overall",688,0,"Low",594,0,"Low",1282,0,0,0,0,0,0,0,0,0
-"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Overall",688,48,"Low",594,44,"Low",1282,0.0552,0.0347,0.0786,0.0236,0.0083,0.0422,0.0367,0.0218,0.0484
+"Bangladesh","BGD","Mar",2017,"Households using unimproved sanitation facility","jmpSan2","Overall",688,48,"Low",594,44,"Low",1282,0.0567,0.0349,0.0771,0.0236,0.0101,0.0404,0.0367,0.0226,0.0484
 "Bangladesh","BGD","Mar",2017,"Households using unimproved source of drinking water","jmpWater2","Overall",688,35,"Low",594,31,"Low",1282,0.0233,0.0101,0.0407,0.0236,0.0084,0.0387,0.0218,0.0133,0.0344
 "Bangladesh","BGD","Mar",2017,"Households whose members are all able to get to sanitation facility","san21","Overall",688,632,"High",594,543,"High",1282,0.8721,0.8387,0.9026,0.931,0.9089,0.9563,0.9103,0.8892,0.9298
 "Bangladesh","BGD","Mar",2017,"Households whose members are all usually able to use the sanitation facility","san23","Overall",688,NA,NA,594,580,"High",1282,0.907,0.8791,0.933,0.9832,0.968,0.9933,0.9555,0.9399,0.9688
@@ -1431,6 +1431,6 @@
 "Bangladesh","BGD","Mar",2017,"Mean likelihood of household being below the USAID extreme poverty line","extreme","Overall",688,69.172,"Low",594,12.98,"Low",1282,0.1104,0.1017,0.1196,0.0147,0.0111,0.0198,0.0496,0.0441,0.0556
 "Bangladesh","BGD","Mar",2017,"Mean number of household members per household","nMembers","Overall",NA,NA,NA,NA,NA,NA,NA,4.3009,4.1336,4.4551,4.7744,4.6076,4.9431,4.6014,4.489,4.7255
 "Bangladesh","BGD","Mar",2017,"Mean number of minutes to sanitation facilities","san13","Overall",NA,NA,NA,NA,NA,NA,NA,8.2398,7.4706,9.1042,6.0236,5.4678,6.6769,6.8222,6.2911,7.296
-"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Overall",594,0,NA,594,0,NA,1188,18.7544,17.0069,20.2634,3.6212,2.7903,4.602,9.0959,8.0256,10.2078
+"Bangladesh","BGD","Mar",2017,"Mean number of people sharing sanitation facility","san2","Overall",688,0,NA,594,0,NA,1282,18.7544,17.0069,20.2634,3.6212,2.7903,4.602,9.0959,8.0256,10.2078
 "Bangladesh","BGD","Mar",2017,"Mean poverty score","ppi","Overall",NA,NA,NA,NA,NA,NA,NA,44.2108,43.0348,45.5572,70.3788,68.9586,71.7747,60.7956,59.4392,62.1259
 "Bangladesh","BGD","Mar",2017,"Mean wealth index","pQuintile","Overall",NA,NA,NA,NA,NA,NA,NA,2.0073,1.9113,2.1134,4.0623,3.9561,4.1684,3.3027,3.2119,3.4103
