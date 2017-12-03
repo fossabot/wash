@@ -1,7 +1,9 @@
 # Urban Water and Sanitation Survey
 
 [![Documentation Status](https://readthedocs.org/projects/urban-water-and-sanitation-surveys/badge/?version=latest)](http://urban-water-and-sanitation-surveys.readthedocs.io/en/latest/?badge=latest)
-[![Github All Releases](https://img.shields.io/github/downloads/wash/wash/v1.8.0/total.svg)](https://github.com/validmeasures/wash/releases/tag/1.8)
+[![Github All Releases](https://img.shields.io/github/downloads/validmeasures/wash/latest/total.svg)](https://github.com/validmeasures/wash/releases/tag/1.8)
+[![GitHub release](https://img.shields.io/github/release/validmeasures/wash.svg)](https://github.com/validmeasures/wash/releases/tag/1.8)
+[![license](https://img.shields.io/github/license/validmeasures/wash.svg)]()
 
 Project on developing sampling and survey methods to assess **water, sanitation and hygiene (WASH)** indicators in urban areas. Project commissioned by [Water and Sanitation for the Urban Poor (WSUP)](http://www.wsup.com).
 
