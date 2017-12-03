@@ -1,5 +1,8 @@
 # Urban Water and Sanitation Survey
 
+[![Documentation Status](https://readthedocs.org/projects/urban-water-and-sanitation-surveys/badge/?version=latest)](http://urban-water-and-sanitation-surveys.readthedocs.io/en/latest/?badge=latest)
+[![Github All Releases](https://img.shields.io/github/downloads/wash/wash/v1.8.0/total.svg)](https://github.com/validmeasures/wash/releases/tag/1.8)
+
 Project on developing sampling and survey methods to assess **water, sanitation and hygiene (WASH)** indicators in urban areas. Project commissioned by [Water and Sanitation for the Urban Poor (WSUP)](http://www.wsup.com).
 
 This repository provides the analysis workflow for producing WASH indicator results from datasets collected in the various [WSUP](http://www.wsup.com) focus cities i.e., Dhaka, Bangladesh; Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
