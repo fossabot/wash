@@ -287,4 +287,4 @@ This step is the final step in the analysis process. This step looks for all the
 
 ## License
 
-This project is licensed under the AGPL-3.0 License - see the [LICENSE.md](https://github.com/validmeasures/wash/blob/master/LICENSE.md) file for details
+This project is licensed under the [AGPL-3.0 License](https://github.com/validmeasures/wash/blob/master/LICENSE.md).
