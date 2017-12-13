@@ -29,7 +29,7 @@ Please note we have a [code of conduct](https://github.com/validmeasures/wash/bl
 
 * Push your branch to your fork on Github, the remote `origin`.
 
-* From your fork open a pull request in the correct branch. Target this project's `development` branch
+* From your fork open a pull request in the correct branch using the specified [Pull Request Template](. Target this project's `development` branch. 
 
 * Ensure any install or build dependencies are removed before the end of the layer when doing a build.
 
