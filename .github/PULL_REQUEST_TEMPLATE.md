@@ -1,5 +1,4 @@
-# Bug Fixes **ONLY**. NO NEW FEATURE/S ACCEPTED!
-
+# Pull Request: [Short Title]
 <!--- Provide a general summary of your changes in the Title above -->
 
 ## Description
