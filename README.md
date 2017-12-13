@@ -287,6 +287,20 @@ This step is the final step in the analysis process. This step looks for all the
 
 <br/>
 
+## Collaborators
+
+**Jonathan Stokes** - [WSUP](https://www.wsup.com)
+
+<br/>
+
+## Contributing to the project
+
+To contribute to the project, read and follow the steps for making contributions found [here](https://github.com/validmeasures/wash/blob/master/.github/CONTRIBUTING.md). Also, make sure that you read and follow the [Code of Conduct](https://github.com/validmeasures/wash/blob/master/.github/CODE_OF_CONDUCT.md) that governs collaboration in this project.
+
+For any questions on how to contribute to the project, contact [Ernest Guevarra](mailto:ernest@validinternational.org).
+
+<br/>
+
 ## License
 
 This project is licensed under the [AGPL-3.0 License](https://github.com/validmeasures/wash/blob/master/LICENSE.md).
