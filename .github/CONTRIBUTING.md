@@ -29,15 +29,13 @@ Please note we have a [code of conduct](https://github.com/validmeasures/wash/bl
 
 * Push your branch to your fork on Github, the remote `origin`.
 
-* From your fork open a pull request in the correct branch using the specified [Pull Request Template](. Target this project's `development` branch. 
-
-* Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+* From your fork open a pull request in the correct branch using the specified [Pull Request Template](https://github.com/validmeasures/wash/blob/master/.github/PULL_REQUEST_TEMPLATE.md). Target this project's `development` branch. 
 
 * Update the `README.md` with details of changes to the interface particularly changes in how indicators are defined or addition of new indicators.
 
 * Increase the version numbers in any examples files and the `README.md` to the new version that this `Pull Request` would represent. The versioning scheme we use is [SemVer](http://semver.org/).
 
-* You may then request the [Ernest Guevarra](mailto:ernest@validinternational.org) to merge your `Pull Request` for you.
+* You may then request [Ernest Guevarra](mailto:ernest@validinternational.org) to merge your `Pull Request` for you.
 
 * Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
 your extra branch(es).
