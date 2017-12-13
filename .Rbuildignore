@@ -1,4 +1,6 @@
 # YAML files
 _config.yml
 
+# Journal article files
+/journal
 
