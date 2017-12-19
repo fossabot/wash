@@ -1,7 +1,7 @@
 
 # wash v1.8.1
 
-* updated improved water source definition https://github.com/validmeasures/wash/issues/2
+* updated improved water source definition [#2]
 * updated definition of "available when needed" - #3
 * addressed issue with handwashing data not being consistent with JMP definition []#7
 * fixed bug arising when estimating wealth node of the workflow is run []#8
