@@ -1,7 +1,7 @@
 # Urban Water and Sanitation Survey
 
 [![GitHub top language](https://img.shields.io/github/languages/top/validmeasures/wash.svg)]()
-[![GitHub release](https://img.shields.io/github/release/validmeasures/wash.svg)](https://github.com/validmeasures/wash/releases/tag/1.8)
+[![GitHub release](https://img.shields.io/github/release/validmeasures/wash.svg)](https://github.com/validmeasures/wash/blob/master/NEWS.md)
 [![license](https://img.shields.io/github/license/validmeasures/wash.svg)](https://github.com/validmeasures/wash/blob/master/LICENSE.md)
 [![Github All Releases](https://img.shields.io/github/downloads/validmeasures/wash/latest/total.svg)](https://github.com/validmeasures/wash/archive/master.zip)
 
