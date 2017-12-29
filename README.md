@@ -1,6 +1,7 @@
 # Urban Water and Sanitation Survey
 
-[![GitHub top language](https://img.shields.io/github/languages/top/validmeasures/wash.svg)]()
+[![GitHub top language](https://img.shields.io/github/languages/top/validmeasures/wash.svg)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvalidmeasures%2Fwash.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvalidmeasures%2Fwash?ref=badge_shield)
+()
 [![GitHub release](https://img.shields.io/github/release/validmeasures/wash.svg)](https://github.com/validmeasures/wash/blob/master/NEWS.md)
 [![license](https://img.shields.io/github/license/validmeasures/wash.svg)](https://github.com/validmeasures/wash/blob/master/LICENSE.md)
 [![Github All Releases](https://img.shields.io/github/downloads/validmeasures/wash/latest/total.svg)](https://github.com/validmeasures/wash/archive/master.zip)
@@ -304,3 +305,6 @@ For any questions on how to contribute to the project, contact [Ernest Guevarra]
 ## License
 
 This project is licensed under the [AGPL-3.0 License](https://github.com/validmeasures/wash/blob/master/LICENSE.md).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvalidmeasures%2Fwash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvalidmeasures%2Fwash?ref=badge_large)
